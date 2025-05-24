@@ -1,0 +1,957 @@
+Job Title,Position_Encoded,min_salary,max_salary,avg_salary,Rating,Location_state_binned,Headquarters_state_binned,works_at_headquarters,Size_cleaned,Company_age,Ownership_Grouped,Industry,Sector,Revenue
+Data Science,2.0,53.0,91.0,72.0,3.8,Other,ca,No,Medium,52.0,Private,Aerospace & Defense,Industrial & Energy,75000000.0
+Data Science,2.0,63.0,112.0,87.5,3.4,Other,Other,No,Very Large,41.0,Private,Health Care Services & Hospitals,Healthcare & Education,3500000000.0
+Data Science,2.0,80.0,90.0,85.0,4.8,Other,Other,Yes,Medium,15.0,Private,Security Services,Finance & Consulting,300000000.0
+Data Science,2.0,56.0,97.0,76.5,3.8,Other,Other,Yes,Large,60.0,Public Service,Energy,Industrial & Energy,
+Data Science,2.0,86.0,143.0,114.5,2.9,ny,ny,Yes,Small,27.0,Private,Advertising & Marketing,Finance & Consulting,
+Data Science,2.0,71.0,119.0,95.0,3.4,Other,Other,Yes,Medium,25.0,Public,Real Estate,Other Services,1500000000.0
+Data Science,2.0,54.0,93.0,73.5,4.1,Other,Other,Yes,Medium,17.0,Private,Banks & Credit Unions,Finance & Consulting,
+Data Science,2.0,86.0,142.0,114.0,3.8,ca,Other,No,Medium,20.0,Private,Consulting,Finance & Consulting,37500000.0
+Research,2.0,38.0,84.0,61.0,3.3,ny,ny,Yes,Very Large,11.0,Public Service,Health Care Services & Hospitals,Healthcare & Education,
+Data Science,2.0,120.0,160.0,140.0,4.6,ny,ny,Yes,Small,16.0,Private,Internet,Technology,300000000.0
+Data Science,2.0,126.0,201.0,163.5,3.5,ca,ca,No,Medium,14.0,Private,Other Retail Stores,Consumer & Retail,1500000000.0
+Data Science,2.0,64.0,106.0,85.0,4.1,va,va,No,Large,57.0,Public,Research & Development,Finance & Consulting,1500000000.0
+Data Science,3.0,106.0,172.0,139.0,3.2,Other,Other,No,Very Large,63.0,Public,"Department, Clothing, & Shoe Stores",Consumer & Retail,10000000000.0
+Data Analysis,2.0,46.0,85.0,65.5,4.1,Other,Other,Yes,Medium,13.0,Private,Advertising & Marketing,Finance & Consulting,
+Data Science,2.0,83.0,144.0,113.5,3.7,ma,Other,No,Very Large,,Public,Biotech & Pharmaceuticals,Healthcare & Education,10000000000.0
+Data Engineering,2.0,102.0,190.0,146.0,3.6,Other,Other,Yes,Large,30.0,Private,Motion Picture Production & Distribution,Other Services,
+Others,2.0,67.0,137.0,102.0,3.9,ma,ma,Yes,Small,14.0,Public,Biotech & Pharmaceuticals,Healthcare & Education,3000000.0
+Data Science,2.0,118.0,189.0,153.5,4.3,ca,ca,Yes,Medium,14.0,Private,Enterprise Software & Network Solutions,Technology,
+Data Science,2.0,110.0,175.0,142.5,4.2,ca,ca,Yes,Small,15.0,Private,Enterprise Software & Network Solutions,Technology,
+Data Science,2.0,64.0,111.0,87.5,4.0,Other,Other,Yes,Medium,110.0,Public Service,Insurance Carriers,Finance & Consulting,
+Data Science,2.0,81.0,130.0,105.5,3.2,Other,Other,Yes,Medium,13.0,Private,Internet,Technology,
+Data Science,4.0,73.0,119.0,96.0,3.9,Other,ca,No,Medium,12.0,Private,Insurance Agencies & Brokerages,Finance & Consulting,
+Data Science,2.0,86.0,139.0,112.5,3.8,il,Other,No,Medium,30.0,Private,Logistics & Supply Chain,Industrial & Energy,
+Data Science,2.0,63.0,105.0,84.0,4.3,Other,Other,No,Small,90.0,Public Service,Logistics & Supply Chain,Industrial & Energy,17500000.0
+Data Science,2.0,,,,3.9,Other,va,No,Very Large,114.0,Private,Food & Beverage Manufacturing,Industrial & Energy,10000000000.0
+Data Science,2.0,109.0,177.0,143.0,4.0,va,va,No,Medium,13.0,Private,Enterprise Software & Network Solutions,Technology,300000000.0
+Data Science,2.0,63.0,110.0,86.5,4.0,ma,ny,No,Very Large,176.0,Public,Biotech & Pharmaceuticals,Healthcare & Education,10000000000.0
+Data Science,2.0,75.0,124.0,99.5,3.5,Other,ca,No,Large,73.0,Private,Banks & Credit Unions,Finance & Consulting,300000000.0
+Data Analysis,1.0,34.0,61.0,47.5,3.7,ma,ma,Yes,Large,173.0,Public,Insurance Carriers,Finance & Consulting,7500000000.0
+Data Science,2.0,63.0,105.0,84.0,4.0,Other,ny,No,Very Large,176.0,Public,Biotech & Pharmaceuticals,Healthcare & Education,10000000000.0
+Data Science,2.0,80.0,90.0,85.0,4.8,Other,Other,Yes,Medium,15.0,Private,Security Services,Finance & Consulting,300000000.0
+Data Science,2.0,56.0,97.0,76.5,3.8,Other,Other,Yes,Large,60.0,Public Service,Energy,Industrial & Energy,
+Data Science,2.0,72.0,120.0,96.0,3.6,Other,Other,Yes,Large,28.0,Private,Real Estate,Other Services,
+Data Science,2.0,86.0,143.0,114.5,3.8,ma,Other,No,Very Large,29.0,Public,Biotech & Pharmaceuticals,Healthcare & Education,10000000000.0
+Data Science,2.0,93.0,149.0,121.0,3.8,ca,ca,Yes,Large,29.0,Public,Telecommunications Services,Technology,3500000000.0
+Data Science,2.0,85.0,140.0,112.5,4.7,ma,ma,Yes,Medium,51.0,Private,Biotech & Pharmaceuticals,Healthcare & Education,
+Data Analysis,2.0,77.0,135.0,106.0,4.2,ca,il,No,Medium,17.0,Private,IT Services,Technology,
+Data Science,2.0,82.0,132.0,107.0,3.5,ca,ca,Yes,Large,56.0,Private,Computer Hardware & Software,Technology,1500000000.0
+Data Science,2.0,83.0,137.0,110.0,4.7,ma,ma,Yes,Medium,15.0,Private,Aerospace & Defense,Industrial & Energy,300000000.0
+Data Science,4.0,115.0,180.0,147.5,3.5,ca,Other,No,Large,155.0,Public,Biotech & Pharmaceuticals,Healthcare & Education,1500000000.0
+Data Engineering,2.0,74.0,138.0,106.0,3.5,ny,ny,Yes,Medium,40.0,Private,Insurance Carriers,Finance & Consulting,300000000.0
+Data Analysis,2.0,64.0,112.0,88.0,4.2,ca,ca,Yes,Medium,17.0,Private,IT Services,Technology,75000000.0
+Data Science,2.0,,,,4.1,il,ny,No,Medium,10.0,Private,Enterprise Software & Network Solutions,Technology,
+Data Engineering,2.0,68.0,129.0,98.5,3.6,ma,ma,No,,,Private,Biotech & Pharmaceuticals,Technology,500000.0
+Data Science,2.0,110.0,175.0,142.5,4.2,ca,ca,Yes,Small,15.0,Private,Enterprise Software & Network Solutions,Technology,
+Others,2.0,52.0,113.0,82.5,3.4,Other,Other,No,Large,10.0,Public,Consumer Products Manufacturing,Industrial & Energy,3500000000.0
+Data Science,4.0,110.0,150.0,130.0,4.3,il,il,Yes,Large,32.0,Public,Real Estate,Other Services,3500000000.0
+Data Science,2.0,,,,5.0,Other,ca,No,Small,8.0,Private,Investment Banking & Asset Management,Finance & Consulting,
+Data Science,2.0,150.0,160.0,155.0,5.0,Other,va,No,,,Private,Enterprise Software & Network Solutions,Technology,
+Data Science,6.0,158.0,211.0,184.5,3.7,Other,ca,No,Very Large,67.0,Public,IT Services,Technology,10000000000.0
+Data Analysis,1.0,20.0,39.0,29.5,3.1,Other,Other,No,Large,39.0,Private,Enterprise Software & Network Solutions,Technology,3500000000.0
+Others,2.0,56.0,117.0,86.5,4.7,Other,va,No,Medium,26.0,Private,Aerospace & Defense,Industrial & Energy,300000000.0
+Data Science,2.0,63.0,99.0,81.0,3.7,il,il,No,Very Large,100.0,Public,Industrial Manufacturing,Industrial & Energy,10000000000.0
+Data Engineering,2.0,,,,4.5,il,Other,No,Small,25.0,Private,Staffing & Outsourcing,Finance & Consulting,3000000.0
+Data Science,2.0,68.0,114.0,91.0,3.8,Other,Other,Yes,Medium,41.0,Private,Advertising & Marketing,Finance & Consulting,
+Data Science,2.0,86.0,143.0,114.5,3.3,ma,ma,Yes,Very Large,113.0,Private,Insurance Carriers,Finance & Consulting,10000000000.0
+Data Science,2.0,41.0,95.0,68.0,4.6,Other,ny,No,Large,23.0,Private,Aerospace & Defense,Industrial & Energy,300000000.0
+Data Science,2.0,86.0,144.0,115.0,3.7,ny,Other,No,Very Large,162.0,Public,Insurance Agencies & Brokerages,Finance & Consulting,10000000000.0
+Data Science,2.0,80.0,139.0,109.5,3.7,ca,va,No,Very Large,86.0,Public,Aerospace & Defense,Industrial & Energy,10000000000.0
+Data Science,2.0,56.0,95.0,75.5,3.5,Other,Other,No,Large,155.0,Public,Biotech & Pharmaceuticals,Healthcare & Education,1500000000.0
+Data Science,2.0,120.0,189.0,154.5,4.1,ca,ca,No,Medium,13.0,Private,Enterprise Software & Network Solutions,Technology,
+Data Science,2.0,111.0,176.0,143.5,4.7,Other,Other,Yes,Small,9.0,Private,IT Services,Technology,
+Data Science,2.0,54.0,93.0,73.5,4.1,Other,Other,Yes,Medium,17.0,Private,Banks & Credit Unions,Finance & Consulting,
+Data Science,2.0,71.0,119.0,95.0,3.4,Other,Other,Yes,Medium,25.0,Public,Real Estate,Other Services,1500000000.0
+Data Analysis,2.0,,,,3.1,Other,Other,Yes,Large,118.0,Private,Insurance Carriers,Finance & Consulting,1500000000.0
+Data Science,4.0,82.0,132.0,107.0,4.4,Other,Other,Yes,Medium,140.0,Private,Metals Brokers,Industrial & Energy,
+Data Science,2.0,84.0,146.0,115.0,4.3,ny,ny,Yes,Medium,14.0,Private,Consulting,Finance & Consulting,17500000.0
+Data Science,4.0,107.0,172.0,139.5,3.8,ny,ca,No,Medium,19.0,Public,Financial Transaction Processing,Finance & Consulting,75000000.0
+Data Science,2.0,49.0,85.0,67.0,3.8,Other,Other,Yes,Large,60.0,Public Service,Energy,Industrial & Energy,
+Data Science,2.0,,,,4.5,ca,ny,No,Small,9.0,Private,Internet,Technology,
+Data Science,2.0,61.0,109.0,85.0,3.8,pa,ny,No,Very Large,77.0,Public,Sporting Goods Stores,Consumer & Retail,7500000000.0
+Data Science,2.0,,,,2.2,va,va,Yes,,25.0,Private,Enterprise Software & Network Solutions,Technology,3000000.0
+Data Science,2.0,88.0,148.0,118.0,2.8,ma,ma,Yes,Small,19.0,Private,Biotech & Pharmaceuticals,Healthcare & Education,3000000.0
+Data Science,2.0,60.0,99.0,79.5,4.7,Other,Other,Yes,Small,22.0,Private,Computer Hardware & Software,Technology,37500000.0
+Data Science,2.0,,,,4.9,Other,Other,No,,12.0,Private,Enterprise Software & Network Solutions,Technology,500000.0
+Data Science,2.0,41.0,72.0,56.5,3.1,ma,ma,Yes,Medium,26.0,Public,Advertising & Marketing,Finance & Consulting,300000000.0
+Data Science,2.0,96.0,161.0,128.5,3.2,pa,pa,No,,,Private,Staffing & Outsourcing,Finance & Consulting,7500000.0
+Research,2.0,65.0,130.0,97.5,4.0,Other,ca,No,Very Large,86.0,Public,Computer Hardware & Software,Technology,
+Data Analysis,2.0,52.0,81.0,66.5,4.4,Other,ca,No,,10.0,Private,Enterprise Software & Network Solutions,Technology,
+Data Science,,139.0,220.0,179.5,3.6,il,il,Yes,Very Large,98.0,Public,Wholesale,Finance & Consulting,10000000000.0
+Others,2.0,50.0,102.0,76.0,2.7,Other,ca,No,Medium,47.0,Private,Research & Development,Finance & Consulting,75000000.0
+Data Science,4.0,85.0,139.0,112.0,3.9,va,va,No,Medium,15.0,Private,IT Services,Technology,300000000.0
+Data Science,2.0,74.0,122.0,98.0,3.1,pa,Other,No,Large,165.0,Private,Mining,Industrial & Energy,1500000000.0
+Data Science,4.0,99.0,157.0,128.0,4.0,Other,ca,No,Very Large,86.0,Public,Computer Hardware & Software,Technology,
+Data Science,2.0,79.0,222.0,150.5,4.3,ca,ca,Yes,Medium,14.0,Private,Enterprise Software & Network Solutions,Technology,
+Research,2.0,57.0,118.0,87.5,1.9,ma,ma,Yes,Small,25.0,Private,Biotech & Pharmaceuticals,Healthcare & Education,17500000.0
+Data Science,2.0,83.0,137.0,110.0,3.3,ny,va,No,Large,8.0,Private,Aerospace & Defense,Industrial & Energy,1500000000.0
+Data Science,2.0,86.0,141.0,113.5,4.4,ca,Other,No,Very Large,30.0,Private,IT Services,Technology,
+Data Science,2.0,94.0,154.0,124.0,3.9,ca,ca,Yes,Small,9.0,Private,Health Care Services & Hospitals,Healthcare & Education,3000000.0
+Data Analysis,1.0,37.0,76.0,56.5,4.7,pa,pa,Yes,Medium,28.0,Private,Advertising & Marketing,Finance & Consulting,37500000.0
+Data Science,2.0,100.0,160.0,130.0,4.5,Other,Other,Yes,Large,83.0,Public Service,Aerospace & Defense,Industrial & Energy,1500000000.0
+Data Analysis,2.0,55.0,100.0,77.5,4.3,il,il,Yes,Small,17.0,Private,Computer Hardware & Software,Technology,17500000.0
+Data Engineering,2.0,60.0,114.0,87.0,4.0,va,va,Yes,Medium,23.0,Private,Consulting,Finance & Consulting,75000000.0
+Data Analysis,2.0,39.0,68.0,53.5,4.4,Other,Other,Yes,Medium,77.0,Private,Wholesale,Finance & Consulting,300000000.0
+Data Science,3.0,106.0,172.0,139.0,3.2,Other,Other,No,Very Large,63.0,Public,"Department, Clothing, & Shoe Stores",Consumer & Retail,10000000000.0
+Data Science,2.0,86.0,142.0,114.0,3.8,ca,Other,No,Medium,20.0,Private,Consulting,Finance & Consulting,37500000.0
+Data Science,2.0,64.0,107.0,85.5,4.2,Other,Other,Yes,Medium,17.0,Private,Enterprise Software & Network Solutions,Technology,300000000.0
+Others,2.0,31.0,65.0,48.0,4.5,Other,va,No,Small,29.0,Private,IT Services,Technology,37500000.0
+Machine Learning,2.0,,,,4.9,ca,ca,Yes,Small,7.0,Private,Computer Hardware & Software,Technology,
+Data Analysis,2.0,34.0,62.0,48.0,3.5,Other,Other,Yes,Small,26.0,Private,Enterprise Software & Network Solutions,Technology,
+Data Engineering,1.0,,,,4.7,ca,ca,Yes,Medium,15.0,Private,Computer Hardware & Software,Technology,
+Others,4.0,117.0,231.0,174.0,3.5,ca,ca,Yes,Medium,35.0,Public,Biotech & Pharmaceuticals,Healthcare & Education,300000000.0
+Data Science,2.0,64.0,106.0,85.0,3.9,Other,il,No,Large,57.0,Public,Financial Analytics & Research,Finance & Consulting,1500000000.0
+Data Science,2.0,,,,4.0,Other,il,No,Medium,28.0,Private,Computer Hardware & Software,Technology,37500000.0
+Others,2.0,79.0,134.0,106.5,4.7,Other,va,No,Small,22.0,Private,IT Services,Technology,17500000.0
+Data Analysis,2.0,52.0,93.0,72.5,4.2,Other,Other,No,Large,37.0,Private,IT Services,Technology,300000000.0
+Others,2.0,55.0,116.0,85.5,3.4,Other,va,No,Very Large,29.0,Private,IT Services,Technology,10000000000.0
+Data Science,2.0,72.0,123.0,97.5,3.2,va,ma,No,Large,67.0,Public Service,Federal Agencies,Other Services,1500000000.0
+Data Science,2.0,74.0,124.0,99.0,3.9,va,va,No,Medium,15.0,Private,IT Services,Technology,300000000.0
+Data Analysis,2.0,40.0,73.0,56.5,3.1,Other,ma,No,Large,24.0,Private,Insurance Carriers,Finance & Consulting,3500000000.0
+Data Science,6.0,102.0,164.0,133.0,4.1,Other,Other,Yes,,18.0,Private,IT Services,Technology,
+Others,2.0,,,,5.0,ca,ca,Yes,Small,12.0,Public,Biotech & Pharmaceuticals,Healthcare & Education,
+Data Science,2.0,89.0,153.0,121.0,3.8,ny,ny,Yes,Small,13.0,Private,Research & Development,Finance & Consulting,
+Data Science,2.0,61.0,110.0,85.5,4.7,ny,ny,Yes,Medium,33.0,Private,Security Services,Finance & Consulting,
+Data Science,2.0,,,,3.770932754880694,Other,Other,Yes,,,Private,Biotech & Pharmaceuticals,Technology,
+Data Engineering,2.0,,,,4.5,Other,va,No,Small,26.0,Private,IT Services,Technology,7500000.0
+Data Science,2.0,65.0,110.0,87.5,4.3,Other,ny,No,Large,10.0,Private,Education Training Services,Healthcare & Education,
+Data Science,4.0,200.0,275.0,237.5,4.2,Other,Other,Yes,Large,90.0,Private,Consulting,Finance & Consulting,
+Data Engineering,2.0,68.0,123.0,95.5,3.9,Other,va,No,Large,28.0,Private,IT Services,Technology,300000000.0
+Data Science,4.0,80.0,129.0,104.5,3.3,Other,Other,No,Very Large,31.0,Public,Transportation Equipment Manufacturing,Industrial & Energy,7500000000.0
+Data Analysis,2.0,41.0,72.0,56.5,4.7,Other,Other,No,Medium,13.0,Private,Computer Hardware & Software,Technology,
+Others,2.0,,,,3.770932754880694,Other,Other,Yes,,,Private,Biotech & Pharmaceuticals,Technology,
+Data Analysis,4.0,39.0,71.0,55.0,4.3,Other,Other,Yes,Medium,15.0,Private,Enterprise Software & Network Solutions,Technology,37500000.0
+Research,2.0,38.0,85.0,61.5,2.9,Other,Other,Yes,Large,48.0,Public Service,Health Care Services & Hospitals,Healthcare & Education,
+Data Science,2.0,121.0,193.0,157.0,4.5,ca,ca,Yes,Medium,19.0,Private,Computer Hardware & Software,Technology,300000000.0
+Data Engineering,2.0,54.0,102.0,78.0,3.4,Other,Other,Yes,Medium,6.0,Private,Internet,Technology,
+Data Science,2.0,83.0,144.0,113.5,3.7,ma,Other,No,Very Large,,Public,Biotech & Pharmaceuticals,Healthcare & Education,10000000000.0
+Data Science,2.0,120.0,160.0,140.0,4.6,ny,ny,Yes,Small,16.0,Private,Internet,Technology,300000000.0
+Data Science,2.0,102.0,163.0,132.5,3.2,ca,ca,Yes,Small,10.0,Private,Enterprise Software & Network Solutions,Technology,
+Data Engineering,2.0,76.0,140.0,108.0,4.0,ca,ca,No,Large,43.0,Public,Computer Hardware & Software,Technology,3500000000.0
+Data Science,2.0,60.0,101.0,80.5,4.6,Other,Other,Yes,Medium,88.0,Private,Farm Support Services,Other Services,75000000.0
+Data Science,2.0,82.0,133.0,107.5,2.8,Other,Other,Yes,Medium,25.0,Private,Health Care Services & Hospitals,Healthcare & Education,
+Data Engineering,2.0,65.0,125.0,95.0,4.7,Other,Other,Yes,Small,29.0,Private,Consulting,Finance & Consulting,37500000.0
+Data Science,7.0,,,,4.9,ca,ca,Yes,,8.0,Private,Enterprise Software & Network Solutions,Technology,
+Data Engineering,2.0,,,,3.770932754880694,ca,ca,Yes,,,Private,Internet,Technology,500000.0
+Data Science,,,,,3.1,Other,Other,Yes,Small,37.0,Private,Preschool & Child Care,Healthcare & Education,75000000.0
+Data Science,2.0,91.0,148.0,119.5,3.0,ny,ca,No,Large,28.0,Public Service,Health Care Services & Hospitals,Healthcare & Education,
+Data Engineering,4.0,95.0,173.0,134.0,3.2,Other,Other,No,Large,25.0,Private,Advertising & Marketing,Finance & Consulting,1500000000.0
+Data Science,2.0,77.0,124.0,100.5,4.4,ma,ma,Yes,Medium,26.0,Private,Enterprise Software & Network Solutions,Technology,
+Data Science,2.0,80.0,135.0,107.5,3.5,Other,Other,Yes,Large,147.0,Public,TV Broadcast & Cable Networks,Other Services,
+Data Engineering,2.0,85.0,159.0,122.0,4.0,Other,Other,Yes,Small,10.0,Private,Internet,Technology,
+Data Engineering,2.0,80.0,105.0,92.5,4.3,il,il,Yes,Large,32.0,Public,Real Estate,Other Services,3500000000.0
+Data Analysis,2.0,43.0,81.0,62.0,2.3,Other,Other,Yes,Medium,39.0,Private,Research & Development,Finance & Consulting,300000000.0
+Others,2.0,29.0,50.0,39.5,4.0,Other,Other,No,Small,25.0,Private,Architectural & Engineering Services,Finance & Consulting,37500000.0
+Data Science,4.0,,,,3.9,Other,va,No,Very Large,114.0,Private,Food & Beverage Manufacturing,Industrial & Energy,10000000000.0
+Data Science,2.0,82.0,133.0,107.5,3.6,Other,ca,No,Large,59.0,Private,Industrial Manufacturing,Industrial & Energy,300000000.0
+Data Analysis,5.0,26.0,55.0,40.5,3.8,Other,Other,Yes,Medium,8.0,Private,Staffing & Outsourcing,Finance & Consulting,
+Data Science,4.0,61.0,118.0,89.5,3.7,va,ca,No,Very Large,67.0,Public,IT Services,Technology,10000000000.0
+Data Science,2.0,60.0,102.0,81.0,4.4,il,il,Yes,Medium,17.0,Private,Consulting,Finance & Consulting,75000000.0
+Data Science,4.0,,,,3.6,ca,ny,No,Small,,Private,Biotech & Pharmaceuticals,Technology,
+Data Science,4.0,112.0,182.0,147.0,4.0,va,va,No,Medium,13.0,Private,Enterprise Software & Network Solutions,Technology,300000000.0
+Others,1.0,,,,3.8,Other,Other,Yes,Large,51.0,Private,Aerospace & Defense,Industrial & Energy,300000000.0
+Data Science,2.0,64.0,106.0,85.0,3.2,Other,Other,Yes,Large,67.0,Private,Brokerage Services,Finance & Consulting,300000000.0
+Others,1.0,51.0,112.0,81.5,2.9,ca,ca,No,Large,54.0,Private,Consumer Products Manufacturing,Industrial & Energy,1500000000.0
+Others,2.0,113.0,223.0,168.0,3.8,ca,ca,No,Large,28.0,Public,Biotech & Pharmaceuticals,Healthcare & Education,
+Data Analysis,2.0,,,,4.5,va,Other,No,,8.0,Private,IT Services,Technology,
+Machine Learning,2.0,72.0,129.0,100.5,4.3,Other,Other,Yes,,18.0,Private,Aerospace & Defense,Industrial & Energy,
+Data Science,2.0,71.0,123.0,97.0,3.4,ny,Other,No,Large,82.0,Private,Consulting,Finance & Consulting,300000000.0
+Data Science,2.0,64.0,106.0,85.0,4.1,va,va,No,Large,57.0,Public,Research & Development,Finance & Consulting,1500000000.0
+Data Science,2.0,118.0,189.0,153.5,4.3,ca,ca,Yes,Medium,14.0,Private,Enterprise Software & Network Solutions,Technology,
+Others,4.0,,,,4.1,ma,ma,Yes,Medium,17.0,Public,Biotech & Pharmaceuticals,Healthcare & Education,
+Data Engineering,2.0,120.0,145.0,132.5,5.0,Other,va,No,Small,8.0,Private,IT Services,Technology,
+Data Engineering,2.0,80.0,120.0,100.0,4.3,il,il,Yes,Small,17.0,Private,Computer Hardware & Software,Technology,17500000.0
+Data Engineering,2.0,,,,4.0,ca,ca,Yes,Medium,,Private,Biotech & Pharmaceuticals,Healthcare & Education,300000000.0
+Data Science,4.0,80.0,130.0,105.0,3.7,Other,Other,Yes,Medium,14.0,Private,Travel Agencies,Other Services,
+Others,2.0,,,,5.0,ca,ca,Yes,Small,12.0,Public,Biotech & Pharmaceuticals,Healthcare & Education,
+Data Engineering,2.0,59.0,115.0,87.0,4.2,Other,Other,No,Very Large,,Public Service,Religious Organizations,Other Services,
+Data Analysis,2.0,71.0,136.0,103.5,4.3,ca,ca,Yes,Small,12.0,Private,Real Estate,Other Services,
+Research,4.0,81.0,167.0,124.0,2.6,ny,pa,No,Medium,41.0,Public Service,Colleges & Universities,Healthcare & Education,
+Data Science,2.0,49.0,85.0,67.0,3.8,Other,Other,Yes,Large,60.0,Public Service,Energy,Industrial & Energy,
+Data Engineering,2.0,60.0,114.0,87.0,3.9,Other,Other,No,Very Large,25.0,Private,IT Services,Technology,3500000000.0
+Data Science,2.0,71.0,204.0,137.5,4.3,il,ca,No,Medium,14.0,Private,Enterprise Software & Network Solutions,Technology,
+Data Science,6.0,75.0,125.0,100.0,3.8,Other,Other,Yes,Medium,38.0,Private,Advertising & Marketing,Finance & Consulting,300000000.0
+Data Analysis,2.0,,,,4.1,Other,Other,No,Large,37.0,Public,Enterprise Software & Network Solutions,Technology,7500000000.0
+Data Engineering,2.0,77.0,136.0,106.5,3.8,Other,Other,Yes,Large,80.0,Public Service,Insurance Carriers,Finance & Consulting,7500000000.0
+Data Science,4.0,74.0,123.0,98.5,3.8,Other,Other,Yes,Large,60.0,Public Service,Energy,Industrial & Energy,
+Others,4.0,,,,5.0,ca,ca,No,Small,12.0,Public,Biotech & Pharmaceuticals,Healthcare & Education,
+Data Analysis,4.0,44.0,78.0,61.0,4.8,Other,Other,Yes,Medium,15.0,Private,Security Services,Finance & Consulting,300000000.0
+Data Science,4.0,65.0,148.0,106.5,4.4,Other,Other,Yes,Small,17.0,Private,Consulting,Finance & Consulting,
+Data Engineering,2.0,59.0,110.0,84.5,3.9,ma,ma,Yes,Small,20.0,Private,Internet,Technology,
+Data Analysis,5.0,85.0,134.0,109.5,3.4,Other,Other,Yes,Large,179.0,Public,Consumer Products Manufacturing,Industrial & Energy,3500000000.0
+Data Science,6.0,124.0,204.0,164.0,3.6,ma,ma,No,Large,174.0,Private,Insurance Carriers,Finance & Consulting,10000000000.0
+Data Science,4.0,131.0,207.0,169.0,3.9,ca,ca,Yes,Very Large,49.0,Private,Biotech & Pharmaceuticals,Healthcare & Education,10000000000.0
+Data Science,4.0,110.0,174.0,142.0,3.8,ca,ca,No,Large,29.0,Public,Telecommunications Services,Technology,3500000000.0
+Data Science,2.0,,,,4.4,va,va,No,Small,12.0,Private,Aerospace & Defense,Industrial & Energy,17500000.0
+Others,2.0,52.0,101.0,76.5,3.7,ma,Other,No,Very Large,,Public,Biotech & Pharmaceuticals,Healthcare & Education,10000000000.0
+Data Science,,,,,4.1,va,va,No,Large,57.0,Public,Research & Development,Finance & Consulting,1500000000.0
+Data Science,2.0,81.0,133.0,107.0,3.8,Other,Other,Yes,Medium,44.0,Private,Insurance Carriers,Finance & Consulting,
+Data Science,3.0,132.0,211.0,171.5,3.5,ca,ca,Yes,Very Large,55.0,Public,Computer Hardware & Software,Technology,10000000000.0
+Data Science,2.0,,,,3.5,Other,va,No,Very Large,63.0,Public,Aerospace & Defense,Industrial & Energy,3500000000.0
+Data Science,4.0,73.0,119.0,96.0,3.9,Other,ca,No,Medium,12.0,Private,Insurance Agencies & Brokerages,Finance & Consulting,
+Data Science,2.0,110.0,175.0,142.5,4.2,ca,ca,Yes,Small,15.0,Private,Enterprise Software & Network Solutions,Technology,
+Data Engineering,2.0,74.0,140.0,107.0,4.2,Other,Other,No,Very Large,,Public Service,Religious Organizations,Other Services,
+Others,4.0,100.0,190.0,145.0,3.5,ma,ma,Yes,Large,15.0,Private,Biotech & Pharmaceuticals,Healthcare & Education,1500000000.0
+Data Analysis,4.0,43.0,80.0,61.5,2.9,va,va,Yes,Medium,32.0,Public Service,Colleges & Universities,Healthcare & Education,37500000.0
+Medical/Healthcare,,,,,5.0,ca,ca,Yes,Small,12.0,Public,Biotech & Pharmaceuticals,Healthcare & Education,
+Data Science,4.0,,,,5.0,Other,ca,No,,6.0,Public,Staffing & Outsourcing,Finance & Consulting,
+Medical/Healthcare,2.0,17.0,24.0,20.5,3.6,pa,pa,No,Large,8.0,Public Service,Health Care Services & Hospitals,Healthcare & Education,
+Data Science,2.0,91.0,149.0,120.0,2.7,Other,Other,Yes,Small,74.0,Public Service,Investment Banking & Asset Management,Finance & Consulting,75000000.0
+Others,2.0,42.0,82.0,62.0,4.4,ma,ma,Yes,Medium,12.0,Public,Biotech & Pharmaceuticals,Healthcare & Education,300000000.0
+Data Science,4.0,116.0,185.0,150.5,4.0,ca,ca,No,Large,43.0,Public,Computer Hardware & Software,Technology,3500000000.0
+Data Analysis,5.0,59.0,116.0,87.5,4.3,Other,Other,No,Medium,58.0,Private,Advertising & Marketing,Finance & Consulting,
+Data Engineering,2.0,48.0,95.0,71.5,4.2,Other,Other,Yes,Small,19.0,Public,Advertising & Marketing,Finance & Consulting,37500000.0
+Data Analysis,2.0,31.0,72.0,51.5,3.6,ca,ca,Yes,Small,19.0,Private,"Department, Clothing, & Shoe Stores",Consumer & Retail,300000000.0
+Others,4.0,105.0,198.0,151.5,3.7,ca,Other,No,Very Large,,Public,Biotech & Pharmaceuticals,Healthcare & Education,10000000000.0
+Data Analysis,4.0,55.0,100.0,77.5,2.8,Other,Other,Yes,Medium,11.0,Private,IT Services,Technology,
+Others,7.0,98.0,182.0,140.0,3.7,ma,Other,No,Very Large,,Public,Biotech & Pharmaceuticals,Healthcare & Education,10000000000.0
+Data Science,4.0,73.0,124.0,98.5,3.3,Other,ma,No,Large,43.0,Private,Insurance Carriers,Finance & Consulting,17500000.0
+Data Science,7.0,200.0,250.0,225.0,3.770932754880694,ca,ca,No,Small,8.0,Private,IT Services,Technology,7500000.0
+Medical/Healthcare,2.0,21.0,34.0,27.5,3.6,Other,Other,Yes,Large,90.0,Public Service,Health Care Services & Hospitals,Healthcare & Education,300000000.0
+Others,4.0,117.0,206.0,161.5,3.7,ma,Other,No,Very Large,,Public,Biotech & Pharmaceuticals,Healthcare & Education,10000000000.0
+Data Science,4.0,111.0,183.0,147.0,3.4,ny,Other,No,Large,77.0,Public,Insurance Carriers,Finance & Consulting,1500000000.0
+Data Analysis,2.0,44.0,78.0,61.0,4.1,Other,Other,Yes,Medium,64.0,Private,Energy,Industrial & Energy,1500000000.0
+Machine Learning,2.0,81.0,159.0,120.0,2.6,ny,pa,No,Medium,41.0,Public Service,Colleges & Universities,Healthcare & Education,
+Data Science,2.0,,,,3.770932754880694,pa,Other,No,,,Private,Biotech & Pharmaceuticals,Technology,
+Data Science,,83.0,166.0,124.5,3.2,Other,ca,No,Large,17.0,Public,Lending,Finance & Consulting,
+Data Science,4.0,114.0,182.0,148.0,3.9,ca,ca,Yes,Small,16.0,Private,Financial Analytics & Research,Finance & Consulting,75000000.0
+Data Analysis,2.0,42.0,76.0,59.0,4.7,Other,va,No,Small,29.0,Private,Aerospace & Defense,Industrial & Energy,37500000.0
+Data Science,4.0,,,,4.0,il,il,No,Medium,28.0,Private,Computer Hardware & Software,Technology,37500000.0
+Others,2.0,,,,4.1,ca,ma,No,Medium,17.0,Public,Biotech & Pharmaceuticals,Healthcare & Education,
+Data Engineering,2.0,,,,4.5,Other,va,No,Small,26.0,Private,IT Services,Technology,7500000.0
+Data Science,6.0,114.0,179.0,146.5,3.7,ma,ma,Yes,Large,173.0,Public,Insurance Carriers,Finance & Consulting,7500000000.0
+Machine Learning,2.0,,,,5.0,Other,Other,Yes,Medium,21.0,Private,IT Services,Technology,
+Others,2.0,60.0,123.0,91.5,2.9,ma,ma,Yes,Medium,,Public,Biotech & Pharmaceuticals,Healthcare & Education,
+Machine Learning,4.0,100.0,166.0,133.0,3.0,il,il,Yes,Medium,10.0,Private,Biotech & Pharmaceuticals,Healthcare & Education,
+Data Science,7.0,108.0,173.0,140.5,4.7,Other,Other,Yes,Small,12.0,Private,Biotech & Pharmaceuticals,Healthcare & Education,3000000.0
+Data Engineering,2.0,48.0,93.0,70.5,3.7,Other,Other,No,Medium,,Private,Computer Hardware & Software,Technology,
+Data Engineering,2.0,,,,3.8,ca,ca,No,Large,28.0,Public,Biotech & Pharmaceuticals,Healthcare & Education,
+Others,7.0,54.0,115.0,84.5,3.3,ny,ny,Yes,Very Large,11.0,Public Service,Health Care Services & Hospitals,Healthcare & Education,
+Software Engineering,2.0,60.0,127.0,93.5,4.0,Other,Other,Yes,Small,23.0,Private,Computer Hardware & Software,Technology,7500000.0
+Others,4.0,90.0,179.0,134.5,4.4,ma,ma,Yes,Medium,12.0,Public,Biotech & Pharmaceuticals,Healthcare & Education,300000000.0
+Data Engineering,2.0,,,,4.2,Other,Other,No,Very Large,,Public Service,Religious Organizations,Other Services,
+Data Science,2.0,,,,4.4,ca,ca,No,Small,15.0,Private,Staffing & Outsourcing,Finance & Consulting,37500000.0
+Machine Learning,3.0,138.0,224.0,181.0,3.9,ca,ca,Yes,Medium,18.0,Private,Internet,Technology,17500000.0
+Others,7.0,54.0,115.0,84.5,3.3,ny,ny,Yes,Very Large,11.0,Public Service,Health Care Services & Hospitals,Healthcare & Education,
+Data Engineering,6.0,190.0,220.0,205.0,4.1,ca,ca,Yes,Small,15.0,Private,Internet,Technology,75000000.0
+Data Engineering,4.0,,,,4.2,Other,ny,No,Small,11.0,Private,Lending,Finance & Consulting,
+Medical/Healthcare,4.0,,,,4.6,ca,ca,Yes,Medium,12.0,Private,Biotech & Pharmaceuticals,Healthcare & Education,
+Data Science,5.0,,,,3.770932754880694,ny,ny,Yes,,,Private,Biotech & Pharmaceuticals,Technology,
+Data Analysis,2.0,35.0,62.0,48.5,3.6,ca,ca,Yes,Large,39.0,Private,Gambling,Other Services,300000000.0
+Medical/Healthcare,2.0,18.0,25.0,21.5,4.0,Other,Other,No,Large,48.0,Public Service,Health Care Services & Hospitals,Healthcare & Education,75000000.0
+Data Science,4.0,,,,4.5,ca,ma,No,Medium,26.0,Private,Video Games,Other Services,
+Research,2.0,39.0,66.0,52.5,2.4,il,Other,No,Medium,,Private,Food & Beverage Manufacturing,Industrial & Energy,300000000.0
+Machine Learning,4.0,81.0,167.0,124.0,2.6,pa,pa,Yes,Medium,41.0,Public Service,Colleges & Universities,Healthcare & Education,
+Data Engineering,2.0,,,,4.1,Other,ny,No,,18.0,Private,IT Services,Technology,7500000.0
+Data Analysis,5.0,42.0,86.0,64.0,3.5,ca,ca,Yes,Medium,29.0,Public Service,Health Care Services & Hospitals,Healthcare & Education,
+Data Engineering,4.0,69.0,127.0,98.0,3.0,Other,Other,Yes,Very Large,67.0,Private,Gas Stations,Consumer & Retail,10000000000.0
+Medical/Healthcare,2.0,21.0,34.0,27.5,3.6,Other,Other,No,Large,90.0,Public Service,Health Care Services & Hospitals,Healthcare & Education,300000000.0
+Software Engineering,2.0,40.0,68.0,54.0,3.3,Other,Other,Yes,Medium,61.0,Private,Food & Beverage Manufacturing,Industrial & Energy,
+Data Engineering,2.0,,,,4.2,Other,Other,No,Very Large,,Public Service,Religious Organizations,Other Services,
+Others,3.0,49.0,113.0,81.0,2.7,Other,Other,Yes,Medium,64.0,Private,Biotech & Pharmaceuticals,Healthcare & Education,37500000.0
+Data Engineering,4.0,75.0,140.0,107.5,3.4,il,il,Yes,Large,20.0,Public,Transportation Management,Industrial & Energy,3500000000.0
+Data Science,2.0,,,,3.9,Other,va,No,Very Large,114.0,Private,Food & Beverage Manufacturing,Industrial & Energy,10000000000.0
+Data Science,2.0,86.0,139.0,112.5,3.8,il,Other,No,Medium,30.0,Private,Logistics & Supply Chain,Industrial & Energy,
+Data Science,2.0,66.0,112.0,89.0,3.7,va,Other,No,Very Large,30.0,Public,Aerospace & Defense,Industrial & Energy,10000000000.0
+Data Science,4.0,76.0,125.0,100.5,4.8,Other,Other,Yes,Large,100.0,Private,Insurance Carriers,Finance & Consulting,1500000000.0
+Data Analysis,2.0,44.0,86.0,65.0,3.8,ny,ny,Yes,Large,23.0,Private,Travel Agencies,Other Services,3500000000.0
+Medical/Healthcare,2.0,15.0,25.0,20.0,3.4,Other,Other,No,Very Large,95.0,Public Service,Federal Agencies,Other Services,
+Data Science,2.0,53.0,92.0,72.5,4.3,Other,Other,Yes,Medium,26.0,Private,Consulting,Finance & Consulting,
+Data Analysis,4.0,44.0,78.0,61.0,4.8,Other,Other,Yes,Medium,15.0,Private,Security Services,Finance & Consulting,300000000.0
+Data Analysis,5.0,85.0,134.0,109.5,3.4,Other,Other,Yes,Large,179.0,Public,Consumer Products Manufacturing,Industrial & Energy,3500000000.0
+Data Analysis,2.0,,,,4.3,Other,Other,No,Large,40.0,Private,IT Services,Technology,300000000.0
+Data Engineering,2.0,59.0,110.0,84.5,3.9,ma,ma,Yes,Small,20.0,Private,Internet,Technology,
+Data Science,2.0,64.0,111.0,87.5,3.4,il,il,Yes,Small,33.0,Private,Advertising & Marketing,Finance & Consulting,17500000.0
+Data Analysis,2.0,65.0,120.0,92.5,3.1,ca,Other,No,Large,28.0,Public,Video Games,Other Services,10000000000.0
+Data Science,1.0,60.0,103.0,81.5,3.2,va,ma,No,Large,67.0,Public Service,Federal Agencies,Other Services,1500000000.0
+Data Analysis,2.0,53.0,105.0,79.0,4.3,Other,Other,Yes,Large,44.0,Private,Trucking,Industrial & Energy,
+Data Science,6.0,124.0,204.0,164.0,3.6,ma,ma,No,Large,174.0,Private,Insurance Carriers,Finance & Consulting,10000000000.0
+Data Science,4.0,131.0,207.0,169.0,3.9,ca,ca,Yes,Very Large,49.0,Private,Biotech & Pharmaceuticals,Healthcare & Education,10000000000.0
+Data Science,4.0,110.0,174.0,142.0,3.8,ca,ca,No,Large,29.0,Public,Telecommunications Services,Technology,3500000000.0
+Data Analysis,2.0,33.0,62.0,47.5,2.8,ca,ca,No,Medium,,Public Service,Social Assistance,Other Services,75000000.0
+Data Science,2.0,,,,4.4,va,va,No,Small,12.0,Private,Aerospace & Defense,Industrial & Energy,17500000.0
+Data Science,,,,,4.1,va,va,No,Large,57.0,Public,Research & Development,Finance & Consulting,1500000000.0
+Others,2.0,52.0,101.0,76.5,3.7,ma,Other,No,Very Large,,Public,Biotech & Pharmaceuticals,Healthcare & Education,10000000000.0
+Data Analysis,2.0,48.0,90.0,69.0,3.4,ca,ca,Yes,Small,12.0,Private,Enterprise Software & Network Solutions,Technology,
+Data Analysis,2.0,34.0,64.0,49.0,4.0,Other,Other,No,Medium,41.0,Private,Computer Hardware & Software,Technology,75000000.0
+Data Science,3.0,132.0,211.0,171.5,3.5,ca,ca,Yes,Very Large,55.0,Public,Computer Hardware & Software,Technology,10000000000.0
+Data Science,2.0,81.0,133.0,107.0,3.8,Other,Other,Yes,Medium,44.0,Private,Insurance Carriers,Finance & Consulting,
+Data Analysis,2.0,42.0,76.0,59.0,3.7,Other,Other,Yes,Medium,29.0,Private,Enterprise Software & Network Solutions,Technology,
+Data Science,1.0,,,,4.6,Other,Other,No,Small,23.0,Private,Consulting,Finance & Consulting,
+Data Science,2.0,,,,3.5,Other,va,No,Very Large,63.0,Public,Aerospace & Defense,Industrial & Energy,3500000000.0
+Data Science,2.0,66.0,111.0,88.5,3.5,ny,va,No,Medium,6.0,Private,IT Services,Technology,37500000.0
+Data Engineering,2.0,74.0,140.0,107.0,4.2,Other,Other,No,Very Large,,Public Service,Religious Organizations,Other Services,
+Others,2.0,,,,2.4,Other,Other,Yes,Large,,Private,Biotech & Pharmaceuticals,Technology,300000000.0
+Data Science,2.0,63.0,110.0,86.5,4.0,ma,ny,No,Very Large,176.0,Public,Biotech & Pharmaceuticals,Healthcare & Education,10000000000.0
+Data Science,2.0,63.0,105.0,84.0,4.3,Other,Other,No,Small,90.0,Public Service,Logistics & Supply Chain,Industrial & Energy,17500000.0
+Data Analysis,2.0,,,,2.5,Other,Other,Yes,Large,47.0,Private,Enterprise Software & Network Solutions,Technology,75000000.0
+Others,2.0,,,,3.8,Other,Other,No,,,Private,Staffing & Outsourcing,Finance & Consulting,
+Data Analysis,2.0,91.0,138.0,114.5,4.7,ny,Other,No,Medium,33.0,Private,Consulting,Finance & Consulting,75000000.0
+Others,4.0,100.0,190.0,145.0,3.5,ma,ma,Yes,Large,15.0,Private,Biotech & Pharmaceuticals,Healthcare & Education,1500000000.0
+Data Engineering,2.0,62.0,114.0,88.0,4.4,Other,ca,No,Large,19.0,Public,Internet,Technology,300000000.0
+Data Engineering,2.0,71.0,129.0,100.0,4.1,il,il,Yes,Medium,24.0,Private,Internet,Technology,300000000.0
+Data Analysis,4.0,43.0,80.0,61.5,2.9,va,va,Yes,Medium,32.0,Public Service,Colleges & Universities,Healthcare & Education,37500000.0
+Data Science,2.0,74.0,119.0,96.5,2.5,Other,va,No,Large,26.0,Public,Advertising & Marketing,Finance & Consulting,1500000000.0
+Others,2.0,,,,5.0,Other,Other,Yes,,16.0,Private,Biotech & Pharmaceuticals,Healthcare & Education,
+Data Analysis,2.0,55.0,97.0,76.0,4.2,Other,il,No,Medium,33.0,Private,Consulting,Finance & Consulting,
+Data Science,2.0,15.0,16.0,15.5,3.9,ny,ny,Yes,Large,59.0,Private,Research & Development,Finance & Consulting,300000000.0
+Data Science,4.0,,,,5.0,Other,ca,No,,6.0,Public,Staffing & Outsourcing,Finance & Consulting,
+Medical/Healthcare,,,,,5.0,ca,ca,Yes,Small,12.0,Public,Biotech & Pharmaceuticals,Healthcare & Education,
+Data Science,2.0,61.0,106.0,83.5,4.3,Other,Other,Yes,,15.0,Private,Advertising & Marketing,Finance & Consulting,
+Data Science,2.0,91.0,149.0,120.0,2.7,Other,Other,Yes,Small,74.0,Public Service,Investment Banking & Asset Management,Finance & Consulting,75000000.0
+Data Analysis,2.0,,,,4.3,Other,Other,Yes,Medium,32.0,Private,Computer Hardware & Software,Technology,300000000.0
+Data Science,2.0,127.0,199.0,163.0,3.9,ca,ca,Yes,Very Large,49.0,Private,Biotech & Pharmaceuticals,Healthcare & Education,10000000000.0
+Data Science,2.0,,,,4.5,Other,Other,No,Medium,32.0,Private,Staffing & Outsourcing,Finance & Consulting,300000000.0
+Data Science,2.0,,,,4.2,Other,il,No,Medium,17.0,Private,IT Services,Technology,
+Data Analysis,6.0,74.0,126.0,100.0,3.4,Other,Other,Yes,Medium,86.0,Public Service,Insurance Carriers,Finance & Consulting,
+Research,2.0,33.0,72.0,52.5,3.8,Other,Other,Yes,Large,108.0,Public Service,Social Assistance,Other Services,
+Medical/Healthcare,2.0,17.0,24.0,20.5,3.6,pa,pa,No,Large,8.0,Public Service,Health Care Services & Hospitals,Healthcare & Education,
+Data Analysis,1.0,37.0,63.0,50.0,3.3,Other,Other,Yes,Medium,142.0,Public Service,Health Care Services & Hospitals,Healthcare & Education,
+Data Engineering,2.0,67.0,119.0,93.0,3.4,Other,va,No,Medium,19.0,Private,Consulting,Finance & Consulting,75000000.0
+Data Science,2.0,72.0,117.0,94.5,3.0,Other,Other,No,Large,138.0,Private,Insurance Agencies & Brokerages,Finance & Consulting,3500000000.0
+Data Science,4.0,116.0,185.0,150.5,4.0,ca,ca,No,Large,43.0,Public,Computer Hardware & Software,Technology,3500000000.0
+Data Science,2.0,78.0,126.0,102.0,3.7,Other,va,No,Large,21.0,Public,Insurance Carriers,Finance & Consulting,7500000000.0
+Others,2.0,42.0,82.0,62.0,4.4,ma,ma,Yes,Medium,12.0,Public,Biotech & Pharmaceuticals,Healthcare & Education,300000000.0
+Data Analysis,5.0,59.0,116.0,87.5,4.3,Other,Other,No,Medium,58.0,Private,Advertising & Marketing,Finance & Consulting,
+Data Science,2.0,,,,5.0,ny,ny,Yes,Small,9.0,Private,Computer Hardware & Software,Technology,
+Data Science,2.0,63.0,105.0,84.0,4.0,Other,ny,No,Very Large,176.0,Public,Biotech & Pharmaceuticals,Healthcare & Education,10000000000.0
+Data Science,2.0,109.0,177.0,143.0,4.0,va,va,No,Medium,13.0,Private,Enterprise Software & Network Solutions,Technology,300000000.0
+Data Science,4.0,116.0,194.0,155.0,3.2,pa,pa,No,,,Private,Staffing & Outsourcing,Finance & Consulting,7500000.0
+Data Engineering,2.0,48.0,95.0,71.5,4.2,Other,Other,Yes,Small,19.0,Public,Advertising & Marketing,Finance & Consulting,37500000.0
+Data Science,2.0,83.0,133.0,108.0,3.9,ca,ca,No,Small,25.0,Private,Insurance Carriers,Finance & Consulting,17500000.0
+Data Analysis,2.0,,,,4.3,Other,Other,No,Large,40.0,Private,IT Services,Technology,300000000.0
+Others,4.0,105.0,198.0,151.5,3.7,ca,Other,No,Very Large,,Public,Biotech & Pharmaceuticals,Healthcare & Education,10000000000.0
+Data Analysis,2.0,31.0,72.0,51.5,3.6,ca,ca,Yes,Small,19.0,Private,"Department, Clothing, & Shoe Stores",Consumer & Retail,300000000.0
+Others,7.0,98.0,182.0,140.0,3.7,ma,Other,No,Very Large,,Public,Biotech & Pharmaceuticals,Healthcare & Education,10000000000.0
+Data Analysis,4.0,55.0,100.0,77.5,2.8,Other,Other,Yes,Medium,11.0,Private,IT Services,Technology,
+Data Analysis,2.0,45.0,82.0,63.5,4.2,Other,Other,Yes,Medium,21.0,Private,Investment Banking & Asset Management,Finance & Consulting,75000000.0
+Data Science,2.0,,,,5.0,ca,Other,No,Small,9.0,Private,IT Services,Technology,37500000.0
+Data Science,2.0,83.0,135.0,109.0,4.0,ca,ca,No,,,Private,IT Services,Technology,500000.0
+Data Science,2.0,,,,4.6,ca,ca,Yes,Small,13.0,Private,Internet,Technology,
+Data Science,2.0,70.0,122.0,96.0,3.5,Other,va,No,Large,175.0,Public,Aerospace & Defense,Industrial & Energy,
+Data Science,7.0,200.0,250.0,225.0,3.770932754880694,ca,ca,No,Small,8.0,Private,IT Services,Technology,7500000.0
+Data Engineering,2.0,70.0,132.0,101.0,3.2,ca,ca,No,Large,17.0,Public,Lending,Finance & Consulting,
+Data Science,4.0,73.0,124.0,98.5,3.3,Other,ma,No,Large,43.0,Private,Insurance Carriers,Finance & Consulting,17500000.0
+Data Engineering,2.0,54.0,101.0,77.5,3.9,Other,Other,Yes,Large,77.0,Private,Industrial Manufacturing,Industrial & Energy,1500000000.0
+Others,4.0,117.0,206.0,161.5,3.7,ma,Other,No,Very Large,,Public,Biotech & Pharmaceuticals,Healthcare & Education,10000000000.0
+Data Engineering,2.0,,,,3.6,ma,ma,No,Medium,135.0,Public,Banks & Credit Unions,Finance & Consulting,75000000.0
+Medical/Healthcare,2.0,21.0,34.0,27.5,3.6,Other,Other,Yes,Large,90.0,Public Service,Health Care Services & Hospitals,Healthcare & Education,300000000.0
+Data Engineering,2.0,,,,3.7,ma,ma,Yes,,11.0,Private,Computer Hardware & Software,Technology,
+Data Science,4.0,111.0,183.0,147.0,3.4,ny,Other,No,Large,77.0,Public,Insurance Carriers,Finance & Consulting,1500000000.0
+Data Analysis,2.0,,,,3.6,Other,Other,Yes,Medium,29.0,Private,Computer Hardware & Software,Technology,300000000.0
+Data Science,2.0,68.0,112.0,90.0,3.5,ca,Other,No,Very Large,28.0,Public,IT Services,Technology,
+Data Analysis,2.0,42.0,74.0,58.0,4.3,ny,Other,No,Medium,123.0,Public,Banks & Credit Unions,Finance & Consulting,7500000000.0
+Data Analysis,2.0,,,,4.7,Other,Other,Yes,Medium,26.0,Private,Banks & Credit Unions,Finance & Consulting,
+Data Analysis,2.0,44.0,78.0,61.0,4.1,Other,Other,Yes,Medium,64.0,Private,Energy,Industrial & Energy,1500000000.0
+Data Science,2.0,,,,3.770932754880694,pa,Other,No,,,Private,Biotech & Pharmaceuticals,Technology,
+Machine Learning,2.0,81.0,159.0,120.0,2.6,pa,pa,Yes,Medium,41.0,Public Service,Colleges & Universities,Healthcare & Education,
+Data Science,2.0,95.0,161.0,128.0,3.6,ny,ny,Yes,Large,,Public,Auctions & Galleries,Consumer & Retail,
+Data Science,2.0,75.0,124.0,99.5,3.5,Other,ca,No,Large,73.0,Private,Banks & Credit Unions,Finance & Consulting,300000000.0
+Data Science,2.0,72.0,120.0,96.0,3.6,Other,Other,Yes,Large,28.0,Private,Real Estate,Other Services,
+Data Science,2.0,76.0,126.0,101.0,2.3,Other,Other,Yes,Medium,22.0,Public,Biotech & Pharmaceuticals,Healthcare & Education,300000000.0
+Data Science,4.0,114.0,182.0,148.0,3.9,ca,ca,Yes,Small,16.0,Private,Financial Analytics & Research,Finance & Consulting,75000000.0
+Data Science,4.0,108.0,176.0,142.0,4.0,va,va,No,Medium,13.0,Private,Enterprise Software & Network Solutions,Technology,300000000.0
+Data Science,4.0,130.0,208.0,169.0,4.1,ca,ca,Yes,,18.0,Private,K-12 Education,Healthcare & Education,
+Data Science,,83.0,166.0,124.5,3.2,Other,ca,No,Large,17.0,Public,Lending,Finance & Consulting,
+Data Analysis,2.0,42.0,76.0,59.0,4.7,Other,va,No,Small,29.0,Private,Aerospace & Defense,Industrial & Energy,37500000.0
+Data Analysis,2.0,37.0,68.0,52.5,4.2,ca,ma,No,Small,38.0,Private,Consulting,Finance & Consulting,17500000.0
+Data Engineering,2.0,52.0,99.0,75.5,4.6,Other,va,No,Medium,43.0,Private,IT Services,Technology,75000000.0
+Data Science,4.0,105.0,173.0,139.0,3.7,ny,Other,No,Very Large,162.0,Public,Insurance Agencies & Brokerages,Finance & Consulting,10000000000.0
+Data Science,4.0,,,,4.0,il,il,No,Medium,28.0,Private,Computer Hardware & Software,Technology,37500000.0
+Data Analysis,2.0,,,,3.770932754880694,ca,ca,No,,,Private,Utilities,Industrial & Energy,
+Data Engineering,2.0,,,,4.5,Other,va,No,Small,26.0,Private,IT Services,Technology,7500000.0
+Data Engineering,2.0,71.0,134.0,102.5,3.7,ma,Other,No,Very Large,,Public,Biotech & Pharmaceuticals,Healthcare & Education,10000000000.0
+Others,2.0,,,,4.1,ca,ma,No,Medium,17.0,Public,Biotech & Pharmaceuticals,Healthcare & Education,
+Others,3.0,39.0,82.0,60.5,4.4,Other,Other,No,Medium,96.0,Private,Architectural & Engineering Services,Finance & Consulting,37500000.0
+Machine Learning,2.0,,,,5.0,Other,Other,Yes,Medium,21.0,Private,IT Services,Technology,
+Data Science,6.0,114.0,179.0,146.5,3.7,ma,ma,Yes,Large,173.0,Public,Insurance Carriers,Finance & Consulting,7500000000.0
+Others,1.0,88.0,162.0,125.0,3.9,ca,ca,Yes,Very Large,49.0,Private,Biotech & Pharmaceuticals,Healthcare & Education,10000000000.0
+Data Analysis,4.0,60.0,102.0,81.0,3.6,ma,ma,Yes,Large,174.0,Private,Insurance Carriers,Finance & Consulting,10000000000.0
+Machine Learning,4.0,100.0,166.0,133.0,3.0,il,il,Yes,Medium,10.0,Private,Biotech & Pharmaceuticals,Healthcare & Education,
+Data Analysis,2.0,55.0,99.0,77.0,3.4,Other,va,No,Very Large,29.0,Private,IT Services,Technology,10000000000.0
+Data Engineering,2.0,67.0,117.0,92.0,4.1,va,va,Yes,Large,57.0,Public,Research & Development,Finance & Consulting,1500000000.0
+Data Science,4.0,92.0,150.0,121.0,3.8,ma,Other,No,Very Large,29.0,Public,Biotech & Pharmaceuticals,Healthcare & Education,10000000000.0
+Data Analysis,2.0,,,,5.0,ma,ma,Yes,,20.0,Private,Consulting,Finance & Consulting,3000000.0
+Data Science,2.0,,,,3.6,ca,Other,No,Large,,Private,Staffing & Outsourcing,Finance & Consulting,
+Data Engineering,7.0,116.0,209.0,162.5,4.0,ca,ca,No,Large,43.0,Public,Computer Hardware & Software,Technology,3500000000.0
+Research,2.0,38.0,82.0,60.0,3.9,Other,Other,Yes,Large,78.0,Public Service,Research & Development,Finance & Consulting,
+Others,6.0,85.0,90.0,87.5,3.770932754880694,ca,ca,Yes,Medium,,Public Service,Biotech & Pharmaceuticals,Technology,
+Data Science,2.0,,,,4.2,va,ca,No,Medium,26.0,Private,Staffing & Outsourcing,Finance & Consulting,300000000.0
+Data Engineering,2.0,62.0,119.0,90.5,4.4,Other,ca,No,,10.0,Private,Enterprise Software & Network Solutions,Technology,
+Data Science,2.0,86.0,143.0,114.5,3.8,ma,Other,No,Very Large,29.0,Public,Biotech & Pharmaceuticals,Healthcare & Education,10000000000.0
+Data Science,2.0,93.0,149.0,121.0,3.8,ca,ca,Yes,Large,29.0,Public,Telecommunications Services,Technology,3500000000.0
+Data Science,4.0,84.0,136.0,110.0,2.2,Other,Other,No,Medium,32.0,Private,Advertising & Marketing,Finance & Consulting,75000000.0
+Others,2.0,60.0,123.0,91.5,2.9,ma,ma,Yes,Medium,,Public,Biotech & Pharmaceuticals,Healthcare & Education,
+Data Analysis,2.0,52.0,89.0,70.5,4.1,va,va,No,Large,57.0,Public,Research & Development,Finance & Consulting,1500000000.0
+Data Analysis,2.0,,,,4.3,Other,Other,Yes,Large,161.0,Private,Construction,Industrial & Energy,3500000000.0
+Data Engineering,2.0,48.0,93.0,70.5,3.7,Other,Other,No,Medium,,Private,Computer Hardware & Software,Technology,
+Data Science,2.0,56.0,97.0,76.5,3.8,Other,ny,No,Large,60.0,Public Service,Energy,Industrial & Energy,
+Data Engineering,2.0,65.0,119.0,92.0,3.6,ma,ma,Yes,Large,174.0,Private,Insurance Carriers,Finance & Consulting,10000000000.0
+Data Engineering,2.0,,,,4.0,Other,Other,No,Medium,27.0,Public,Video Games,Other Services,
+Data Science,7.0,108.0,173.0,140.5,4.7,Other,Other,Yes,Small,12.0,Private,Biotech & Pharmaceuticals,Healthcare & Education,3000000.0
+Data Science,2.0,63.0,101.0,82.0,3.5,va,ca,No,Large,56.0,Private,Computer Hardware & Software,Technology,1500000000.0
+Others,7.0,54.0,115.0,84.5,3.3,ny,ny,Yes,Very Large,11.0,Public Service,Health Care Services & Hospitals,Healthcare & Education,
+Data Engineering,2.0,,,,3.8,ca,ca,No,Large,28.0,Public,Biotech & Pharmaceuticals,Healthcare & Education,
+Others,4.0,90.0,179.0,134.5,4.4,ma,ma,Yes,Medium,12.0,Public,Biotech & Pharmaceuticals,Healthcare & Education,300000000.0
+Data Science,2.0,,,,3.6,ca,Other,No,Large,9.0,Public Service,Federal Agencies,Other Services,
+Data Science,2.0,127.0,202.0,164.5,3.3,ca,ca,Yes,Medium,17.0,Private,Advertising & Marketing,Finance & Consulting,
+Data Analysis,2.0,31.0,57.0,44.0,3.4,Other,Other,Yes,Medium,34.0,Public,Telecommunications Manufacturing,Technology,75000000.0
+Software Engineering,2.0,60.0,127.0,93.5,4.0,Other,Other,Yes,Small,23.0,Private,Computer Hardware & Software,Technology,7500000.0
+Data Engineering,2.0,75.0,143.0,109.0,4.4,va,ca,No,,10.0,Private,Enterprise Software & Network Solutions,Technology,
+Data Engineering,3.0,105.0,194.0,149.5,3.8,Other,ca,No,Medium,15.0,Private,Computer Hardware & Software,Technology,
+Data Engineering,1.0,45.0,86.0,65.5,3.5,Other,Other,Yes,Large,18.0,Private,Research & Development,Finance & Consulting,
+Data Engineering,2.0,,,,4.2,Other,Other,No,Very Large,,Public Service,Religious Organizations,Other Services,
+Data Science,4.0,95.0,154.0,124.5,3.5,Other,Other,Yes,Large,8.0,Public,Insurance Carriers,Finance & Consulting,
+Data Analysis,2.0,,,,4.4,ca,ca,No,Small,15.0,Private,Staffing & Outsourcing,Finance & Consulting,37500000.0
+Others,2.0,,,,3.770932754880694,ma,Other,No,,,Private,Biotech & Pharmaceuticals,Technology,
+Data Engineering,3.0,80.0,148.0,114.0,2.9,ca,ny,No,Small,27.0,Private,Advertising & Marketing,Finance & Consulting,
+Data Analysis,2.0,36.0,62.0,49.0,3.9,pa,pa,Yes,Medium,88.0,Public Service,Banks & Credit Unions,Finance & Consulting,
+Data Science,2.0,,,,4.4,ca,ca,No,Small,15.0,Private,Staffing & Outsourcing,Finance & Consulting,37500000.0
+Others,7.0,54.0,115.0,84.5,3.3,ny,ny,Yes,Very Large,11.0,Public Service,Health Care Services & Hospitals,Healthcare & Education,
+Data Analysis,2.0,50.0,92.0,71.0,3.7,va,va,Yes,Medium,36.0,Private,IT Services,Technology,300000000.0
+Machine Learning,,67.0,135.0,101.0,3.6,ma,ma,No,Large,174.0,Private,Insurance Carriers,Finance & Consulting,10000000000.0
+Data Science,2.0,82.0,132.0,107.0,3.5,ca,ca,Yes,Large,56.0,Private,Computer Hardware & Software,Technology,1500000000.0
+Data Science,2.0,85.0,140.0,112.5,4.7,ma,ma,Yes,Medium,51.0,Private,Biotech & Pharmaceuticals,Healthcare & Education,
+Machine Learning,3.0,138.0,224.0,181.0,3.9,ca,ca,Yes,Medium,18.0,Private,Internet,Technology,17500000.0
+Data Analysis,2.0,42.0,80.0,61.0,3.7,il,il,Yes,Very Large,97.0,Public,Computer Hardware & Software,Technology,7500000000.0
+Data Engineering,6.0,190.0,220.0,205.0,4.1,ca,ca,Yes,Small,15.0,Private,Internet,Technology,75000000.0
+Others,2.0,68.0,139.0,103.5,3.1,Other,Other,No,Large,150.0,Private,Consumer Products Manufacturing,Industrial & Energy,10000000000.0
+Data Engineering,4.0,,,,4.2,Other,ny,No,Small,11.0,Private,Lending,Finance & Consulting,
+Data Analysis,5.0,34.0,92.0,63.0,3.6,ma,ma,Yes,Large,174.0,Private,Insurance Carriers,Finance & Consulting,10000000000.0
+Data Analysis,2.0,54.0,71.0,62.5,3.0,Other,Other,No,Very Large,44.0,Public,IT Services,Technology,10000000000.0
+Data Engineering,2.0,65.0,124.0,94.5,3.5,ca,ca,Yes,Medium,12.0,Private,Health Care Services & Hospitals,Healthcare & Education,
+Medical/Healthcare,4.0,,,,4.6,ca,ca,Yes,Medium,12.0,Private,Biotech & Pharmaceuticals,Healthcare & Education,
+Data Analysis,5.0,,,,3.3,Other,Other,No,Small,44.0,Private,Staffing & Outsourcing,Finance & Consulting,7500000.0
+Data Science,5.0,,,,3.770932754880694,ny,ny,Yes,,,Private,Biotech & Pharmaceuticals,Technology,
+Data Analysis,2.0,35.0,62.0,48.5,3.6,ca,ca,Yes,Large,39.0,Private,Gambling,Other Services,300000000.0
+Others,4.0,109.0,200.0,154.5,3.5,ma,ma,Yes,Large,15.0,Private,Biotech & Pharmaceuticals,Healthcare & Education,1500000000.0
+Medical/Healthcare,2.0,18.0,25.0,21.5,4.0,Other,Other,No,Large,48.0,Public Service,Health Care Services & Hospitals,Healthcare & Education,75000000.0
+Machine Learning,2.0,61.0,113.0,87.0,3.7,Other,il,No,Medium,52.0,Public,Stock Exchanges,Finance & Consulting,
+Research,2.0,39.0,66.0,52.5,2.4,il,Other,No,Medium,,Private,Food & Beverage Manufacturing,Industrial & Energy,300000000.0
+Data Engineering,2.0,43.0,86.0,64.5,3.2,ny,ny,Yes,Medium,22.0,Private,Research & Development,Finance & Consulting,
+Others,2.0,74.0,149.0,111.5,2.1,ca,ca,Yes,Medium,,Public,Biotech & Pharmaceuticals,Healthcare & Education,37500000.0
+Data Science,4.0,,,,4.5,ca,ma,No,Medium,26.0,Private,Video Games,Other Services,
+Data Engineering,,113.0,196.0,154.5,3.7,ma,Other,No,Very Large,,Public,Biotech & Pharmaceuticals,Healthcare & Education,10000000000.0
+Machine Learning,4.0,81.0,167.0,124.0,2.6,pa,pa,Yes,Medium,41.0,Public Service,Colleges & Universities,Healthcare & Education,
+Data Science,4.0,97.0,160.0,128.5,4.4,il,il,Yes,Medium,17.0,Private,Consulting,Finance & Consulting,75000000.0
+Data Engineering,2.0,,,,4.1,Other,ny,No,,18.0,Private,IT Services,Technology,7500000.0
+Medical/Healthcare,2.0,24.0,39.0,31.5,3.7,Other,Other,Yes,Medium,59.0,Public Service,Health Care Services & Hospitals,Healthcare & Education,300000000.0
+Data Analysis,2.0,,,,3.1,Other,Other,Yes,Medium,23.0,Private,Enterprise Software & Network Solutions,Technology,37500000.0
+Data Analysis,2.0,,,,3.7,va,ny,No,Medium,36.0,Private,IT Services,Technology,300000000.0
+Business,,,,,2.7,ny,ny,Yes,Large,59.0,Public,Banks & Credit Unions,Finance & Consulting,10000000000.0
+Data Science,,,,,3.8,ma,Other,No,Very Large,29.0,Public,Biotech & Pharmaceuticals,Healthcare & Education,10000000000.0
+Data Analysis,5.0,42.0,86.0,64.0,3.5,ca,ca,Yes,Medium,29.0,Public Service,Health Care Services & Hospitals,Healthcare & Education,
+Data Engineering,4.0,69.0,127.0,98.0,3.0,Other,Other,Yes,Very Large,67.0,Private,Gas Stations,Consumer & Retail,10000000000.0
+Data Science,2.0,110.0,175.0,142.5,4.2,ca,ca,Yes,Small,15.0,Private,Enterprise Software & Network Solutions,Technology,
+Data Science,2.0,,,,4.1,il,il,Yes,Medium,10.0,Private,Enterprise Software & Network Solutions,Technology,
+Data Science,4.0,102.0,172.0,137.0,3.9,ny,Other,No,Very Large,112.0,Public,Biotech & Pharmaceuticals,Healthcare & Education,10000000000.0
+Data Engineering,2.0,74.0,124.0,99.0,4.0,Other,Other,Yes,Medium,110.0,Public Service,Insurance Carriers,Finance & Consulting,
+Software Engineering,2.0,40.0,68.0,54.0,3.3,Other,Other,Yes,Medium,61.0,Private,Food & Beverage Manufacturing,Industrial & Energy,
+Data Science,4.0,108.0,171.0,139.5,4.4,ma,ma,Yes,Large,41.0,Private,Computer Hardware & Software,Technology,1500000000.0
+Data Engineering,2.0,76.0,142.0,109.0,3.4,Other,va,No,Medium,26.0,Private,IT Services,Technology,37500000.0
+Data Engineering,2.0,,,,4.1,ny,Other,No,Small,22.0,Private,Staffing & Outsourcing,Finance & Consulting,17500000.0
+Data Science,,202.0,306.0,254.0,3.3,il,ma,No,Very Large,113.0,Private,Insurance Carriers,Finance & Consulting,10000000000.0
+Medical/Healthcare,5.0,,,,5.0,ca,ca,Yes,Small,12.0,Public,Biotech & Pharmaceuticals,Healthcare & Education,
+Others,2.0,49.0,97.0,73.0,2.9,ca,ca,No,Medium,13.0,Private,Biotech & Pharmaceuticals,Healthcare & Education,
+Others,3.0,49.0,113.0,81.0,2.7,Other,Other,Yes,Medium,64.0,Private,Biotech & Pharmaceuticals,Healthcare & Education,37500000.0
+Medical/Healthcare,2.0,21.0,34.0,27.5,3.6,Other,Other,No,Large,90.0,Public Service,Health Care Services & Hospitals,Healthcare & Education,300000000.0
+Data Engineering,2.0,,,,4.2,Other,Other,No,Very Large,,Public Service,Religious Organizations,Other Services,
+Others,2.0,65.0,134.0,99.5,3.1,Other,Other,Yes,Large,150.0,Private,Consumer Products Manufacturing,Industrial & Energy,10000000000.0
+Data Analysis,1.0,32.0,59.0,45.5,3.3,Other,Other,Yes,Medium,36.0,Private,Insurance Carriers,Finance & Consulting,
+Data Science,,,,,3.8,ma,Other,No,Very Large,29.0,Public,Biotech & Pharmaceuticals,Healthcare & Education,10000000000.0
+Data Engineering,4.0,87.0,158.0,122.5,4.5,Other,Other,Yes,Small,29.0,Private,Consulting,Finance & Consulting,37500000.0
+Data Science,4.0,107.0,173.0,140.0,3.9,il,il,Yes,Large,57.0,Public,Financial Analytics & Research,Finance & Consulting,1500000000.0
+Data Science,4.0,56.0,99.0,77.5,3.2,va,ma,No,Large,67.0,Public Service,Federal Agencies,Other Services,1500000000.0
+Others,2.0,25.0,28.0,26.5,3.3,ma,ma,Yes,,49.0,Private,Construction,Industrial & Energy,
+Others,2.0,,,,2.9,ca,ca,No,Large,54.0,Private,Consumer Products Manufacturing,Industrial & Energy,1500000000.0
+Others,4.0,80.0,155.0,117.5,3.1,Other,Other,Yes,Large,150.0,Private,Consumer Products Manufacturing,Industrial & Energy,10000000000.0
+Others,2.0,43.0,98.0,70.5,2.4,ca,ca,Yes,Medium,19.0,Private,Biotech & Pharmaceuticals,Healthcare & Education,75000000.0
+Data Analysis,5.0,45.0,78.0,61.5,4.8,ca,ca,Yes,Small,14.0,Private,Computer Hardware & Software,Technology,37500000.0
+Others,1.0,44.0,96.0,70.0,2.9,ny,Other,No,Large,10.0,Private,Biotech & Pharmaceuticals,Healthcare & Education,
+Others,4.0,50.0,110.0,80.0,2.9,Other,Other,No,Large,10.0,Private,Biotech & Pharmaceuticals,Healthcare & Education,
+Data Engineering,2.0,61.0,119.0,90.0,3.4,ma,ma,Yes,Large,37.0,Private,Insurance Carriers,Finance & Consulting,300000000.0
+Research,2.0,100.0,140.0,120.0,3.770932754880694,ma,ca,No,,,Private,Biotech & Pharmaceuticals,Technology,
+Others,2.0,56.0,91.0,73.5,2.6,pa,pa,Yes,Medium,41.0,Public Service,Colleges & Universities,Healthcare & Education,
+Data Engineering,2.0,,,,4.8,Other,Other,No,Medium,10.0,Private,IT Services,Technology,37500000.0
+Machine Learning,3.0,,,,4.6,ca,ca,Yes,Small,13.0,Private,Internet,Technology,
+Data Science,2.0,68.0,114.0,91.0,3.8,Other,Other,Yes,Medium,41.0,Private,Advertising & Marketing,Finance & Consulting,
+Data Science,2.0,150.0,160.0,155.0,5.0,Other,va,No,,,Private,Enterprise Software & Network Solutions,Technology,
+Data Science,4.0,,,,4.3,ny,ca,No,Medium,14.0,Private,Enterprise Software & Network Solutions,Technology,
+Others,2.0,101.0,158.0,129.5,3.6,ma,ma,No,Large,174.0,Private,Insurance Carriers,Finance & Consulting,10000000000.0
+Data Engineering,2.0,,,,4.2,ny,ny,Yes,Small,11.0,Private,Lending,Finance & Consulting,
+Data Analysis,5.0,,,,4.8,pa,pa,Yes,Small,16.0,Private,Publishing,Other Services,
+Data Science,5.0,125.0,210.0,167.5,4.0,ny,ny,Yes,Very Large,176.0,Public,Biotech & Pharmaceuticals,Healthcare & Education,10000000000.0
+Data Analysis,2.0,43.0,77.0,60.0,3.8,Other,Other,Yes,Large,155.0,Public,Banks & Credit Unions,Finance & Consulting,1500000000.0
+Others,4.0,,,,3.6,va,va,No,Small,17.0,Private,Consulting,Finance & Consulting,
+Data Science,6.0,139.0,221.0,180.0,3.9,ca,ca,Yes,Small,16.0,Private,Financial Analytics & Research,Finance & Consulting,75000000.0
+Data Analysis,2.0,44.0,86.0,65.0,3.8,ny,ny,Yes,Large,23.0,Private,Travel Agencies,Other Services,3500000000.0
+Data Engineering,4.0,78.0,147.0,112.5,4.3,Other,ca,No,Large,35.0,Private,Computer Hardware & Software,Technology,1500000000.0
+Data Analysis,4.0,65.0,110.0,87.5,1.9,ny,ny,Yes,Medium,15.0,Private,"Department, Clothing, & Shoe Stores",Consumer & Retail,300000000.0
+Others,2.0,37.0,66.0,51.5,3.3,Other,ma,No,Very Large,113.0,Private,Insurance Carriers,Finance & Consulting,10000000000.0
+Others,1.0,38.0,64.0,51.0,4.7,ca,ca,No,Small,53.0,Private,Architectural & Engineering Services,Finance & Consulting,17500000.0
+Data Science,1.0,43.0,82.0,62.5,3.1,ma,Other,No,Very Large,169.0,Private,Banks & Credit Unions,Finance & Consulting,10000000000.0
+Data Engineering,4.0,90.0,110.0,100.0,3.4,Other,Other,No,Medium,44.0,Public,Health Care Services & Hospitals,Healthcare & Education,
+Data Engineering,2.0,61.0,109.0,85.0,4.4,va,Other,No,Small,21.0,Private,IT Services,Technology,
+Data Science,4.0,93.0,151.0,122.0,3.9,Other,Other,Yes,Medium,13.0,Private,Computer Hardware & Software,Technology,
+Data Analysis,2.0,52.0,81.0,66.5,3.9,il,Other,No,Medium,30.0,Private,Enterprise Software & Network Solutions,Technology,300000000.0
+Others,2.0,40.0,101.0,70.5,4.7,Other,Other,Yes,Large,23.0,Private,Lending,Finance & Consulting,
+Data Engineering,4.0,97.0,180.0,138.5,4.7,Other,Other,Yes,Small,15.0,Private,Security Services,Finance & Consulting,17500000.0
+Data Science,2.0,81.0,134.0,107.5,3.4,ma,Other,No,Large,82.0,Private,Consulting,Finance & Consulting,300000000.0
+Others,2.0,84.0,157.0,120.5,3.8,ma,ma,Yes,Medium,17.0,Public,Biotech & Pharmaceuticals,Healthcare & Education,75000000.0
+Others,3.0,49.0,113.0,81.0,2.7,Other,Other,Yes,Medium,64.0,Private,Biotech & Pharmaceuticals,Healthcare & Education,37500000.0
+Others,2.0,68.0,139.0,103.5,3.1,Other,Other,No,Large,150.0,Private,Consumer Products Manufacturing,Industrial & Energy,10000000000.0
+Data Engineering,4.0,75.0,140.0,107.5,3.4,il,il,Yes,Large,20.0,Public,Transportation Management,Industrial & Energy,3500000000.0
+Data Engineering,2.0,,,,4.0,Other,Other,No,,,Private,Biotech & Pharmaceuticals,Technology,
+Medical/Healthcare,4.0,,,,3.4,ca,ca,Yes,Very Large,20.0,Public Service,Health Care Services & Hospitals,Healthcare & Education,3500000000.0
+Data Engineering,6.0,121.0,203.0,162.0,4.0,ca,ca,No,Large,18.0,Private,Internet,Technology,
+Data Science,2.0,52.0,85.0,68.5,3.5,ca,ca,Yes,Large,56.0,Private,Computer Hardware & Software,Technology,1500000000.0
+Data Science,4.0,81.0,140.0,110.5,3.4,Other,ny,No,Very Large,47.0,Public,Insurance Carriers,Finance & Consulting,7500000000.0
+Data Science,2.0,63.0,99.0,81.0,3.7,il,il,No,Very Large,100.0,Public,Industrial Manufacturing,Industrial & Energy,10000000000.0
+Data Science,4.0,110.0,150.0,130.0,4.3,il,il,Yes,Large,32.0,Public,Real Estate,Other Services,3500000000.0
+Data Engineering,4.0,83.0,148.0,115.5,3.7,Other,Other,Yes,Medium,,Private,Insurance Carriers,Finance & Consulting,300000000.0
+Data Engineering,4.0,,,,4.7,il,il,No,Small,11.0,Private,IT Services,Technology,3000000.0
+Data Science,4.0,60.0,101.0,80.5,3.8,Other,Other,Yes,Large,60.0,Public Service,Energy,Industrial & Energy,
+Others,2.0,,,,4.4,ma,ma,Yes,Small,,Public,Biotech & Pharmaceuticals,Technology,
+Data Analysis,2.0,,,,3.7,pa,pa,Yes,Medium,93.0,Private,Banks & Credit Unions,Finance & Consulting,1500000000.0
+Others,,,,,3.7,ma,Other,No,Very Large,52.0,Public,Biotech & Pharmaceuticals,Healthcare & Education,10000000000.0
+Data Analysis,2.0,31.0,55.0,43.0,4.6,Other,Other,Yes,Medium,33.0,Private,Lending,Finance & Consulting,300000000.0
+Business,,102.0,178.0,140.0,4.4,ma,ma,Yes,Medium,22.0,Public,Biotech & Pharmaceuticals,Healthcare & Education,
+Others,4.0,110.0,130.0,120.0,3.770932754880694,ma,ca,No,,,Private,Biotech & Pharmaceuticals,Technology,
+Data Analysis,4.0,48.0,85.0,66.5,3.0,pa,pa,Yes,Large,42.0,Private,Insurance Carriers,Finance & Consulting,7500000000.0
+Data Engineering,6.0,66.0,123.0,94.5,4.7,ca,ca,No,Small,19.0,Private,Staffing & Outsourcing,Finance & Consulting,3000000.0
+Data Science,4.0,92.0,146.0,119.0,3.8,Other,Other,No,Large,60.0,Public Service,Energy,Industrial & Energy,
+Medical/Healthcare,2.0,21.0,29.0,25.0,3.2,ny,Other,No,Very Large,29.0,Public Service,Health Care Services & Hospitals,Healthcare & Education,10000000000.0
+Data Analysis,4.0,10.0,17.0,13.5,2.7,Other,Other,No,Large,25.0,Public,Financial Transaction Processing,Finance & Consulting,3500000000.0
+Data Science,,150.0,239.0,194.5,3.3,il,ma,No,Very Large,113.0,Private,Insurance Carriers,Finance & Consulting,10000000000.0
+Research,4.0,52.0,91.0,71.5,3.9,Other,Other,Yes,Large,78.0,Public Service,Research & Development,Finance & Consulting,
+Data Science,2.0,82.0,129.0,105.5,3.7,Other,Other,Yes,Medium,,Public Service,Colleges & Universities,Healthcare & Education,
+Others,,,,,2.6,pa,pa,Yes,Medium,41.0,Public Service,Colleges & Universities,Healthcare & Education,
+Others,4.0,47.0,101.0,74.0,3.1,Other,Other,Yes,Large,150.0,Private,Consumer Products Manufacturing,Industrial & Energy,10000000000.0
+Others,4.0,,,,4.1,ma,ma,Yes,Medium,17.0,Public,Biotech & Pharmaceuticals,Healthcare & Education,
+Data Analysis,2.0,49.0,76.0,62.5,3.7,Other,ma,No,Very Large,103.0,Public,Aerospace & Defense,Industrial & Energy,10000000000.0
+Data Engineering,6.0,,,,3.770932754880694,ny,ny,Yes,,,Private,Biotech & Pharmaceuticals,Technology,
+Research,4.0,43.0,88.0,65.5,4.3,Other,Other,No,Large,67.0,Public Service,Research & Development,Finance & Consulting,
+Data Science,,124.0,199.0,161.5,3.6,Other,Other,Yes,Large,36.0,Private,Advertising & Marketing,Finance & Consulting,
+Data Analysis,4.0,52.0,93.0,72.5,2.1,pa,pa,Yes,Large,22.0,Private,Biotech & Pharmaceuticals,Healthcare & Education,300000000.0
+Data Engineering,4.0,97.0,181.0,139.0,3.9,ca,ca,Yes,Small,17.0,Public,Computer Hardware & Software,Technology,17500000.0
+Others,4.0,,,,5.0,ca,ca,Yes,Small,9.0,Private,Biotech & Pharmaceuticals,Healthcare & Education,
+Data Engineering,4.0,100.0,173.0,136.5,3.9,ca,ca,Yes,Medium,18.0,Private,Internet,Technology,17500000.0
+Data Science,1.0,53.0,96.0,74.5,3.8,ny,ny,Yes,Large,23.0,Private,Travel Agencies,Other Services,3500000000.0
+Others,4.0,65.0,96.0,80.5,3.1,Other,Other,Yes,Large,150.0,Private,Consumer Products Manufacturing,Industrial & Energy,10000000000.0
+Data Science,2.0,56.0,95.0,75.5,3.5,Other,ny,No,Large,155.0,Public,Biotech & Pharmaceuticals,Healthcare & Education,1500000000.0
+Data Science,2.0,111.0,176.0,143.5,4.7,Other,Other,Yes,Small,9.0,Private,IT Services,Technology,
+Data Science,2.0,75.0,127.0,101.0,5.0,va,ny,No,Small,11.0,Private,Aerospace & Defense,Industrial & Energy,17500000.0
+Data Engineering,2.0,65.0,119.0,92.0,3.6,ma,ma,Yes,Large,174.0,Private,Insurance Carriers,Finance & Consulting,10000000000.0
+Data Science,2.0,56.0,97.0,76.5,3.8,ny,Other,No,Large,60.0,Public Service,Energy,Industrial & Energy,
+Data Science,7.0,108.0,173.0,140.5,4.7,Other,Other,Yes,Small,12.0,Private,Biotech & Pharmaceuticals,Healthcare & Education,3000000.0
+Data Science,2.0,94.0,139.0,116.5,3.6,Other,ny,No,Very Large,213.0,Public,Investment Banking & Asset Management,Finance & Consulting,10000000000.0
+Data Engineering,2.0,,,,4.0,Other,Other,No,Medium,27.0,Public,Video Games,Other Services,
+Machine Learning,7.0,176.0,289.0,232.5,4.7,ca,ca,No,Medium,26.0,Private,Computer Hardware & Software,Technology,
+Data Science,2.0,92.0,149.0,120.5,3.5,ca,ca,Yes,Small,9.0,Private,Enterprise Software & Network Solutions,Technology,
+Data Science,2.0,63.0,101.0,82.0,3.5,va,ca,No,Large,56.0,Private,Computer Hardware & Software,Technology,1500000000.0
+Data Science,2.0,,,,3.6,ny,Other,No,,,Private,Staffing & Outsourcing,Finance & Consulting,500000.0
+Others,7.0,54.0,115.0,84.5,3.3,ny,ny,Yes,Very Large,11.0,Public Service,Health Care Services & Hospitals,Healthcare & Education,
+Data Engineering,4.0,,,,3.4,ca,ca,No,Large,24.0,Private,IT Services,Technology,75000000.0
+Data Science,2.0,118.0,188.0,153.0,2.7,ca,Other,No,Very Large,18.0,Public,IT Services,Technology,
+Data Science,2.0,108.0,146.0,127.0,3.4,ca,ca,Yes,Medium,17.0,Private,Internet,Technology,
+Data Science,2.0,65.0,106.0,85.5,4.7,ca,ca,Yes,Small,15.0,Private,Computer Hardware & Software,Technology,
+Data Science,2.0,55.0,98.0,76.5,2.8,ny,ny,Yes,Large,49.0,Public,Wholesale,Finance & Consulting,1500000000.0
+Data Science,2.0,94.0,162.0,128.0,3.5,ny,ca,No,Large,33.0,Private,TV Broadcast & Cable Networks,Other Services,
+Data Engineering,2.0,,,,3.8,ca,ca,No,Large,28.0,Public,Biotech & Pharmaceuticals,Healthcare & Education,
+Data Engineering,2.0,63.0,120.0,91.5,3.2,pa,pa,No,,,Private,Staffing & Outsourcing,Finance & Consulting,7500000.0
+Others,4.0,90.0,179.0,134.5,4.4,ma,ma,Yes,Medium,12.0,Public,Biotech & Pharmaceuticals,Healthcare & Education,300000000.0
+Data Science,2.0,127.0,202.0,164.5,3.3,ca,ca,Yes,Medium,17.0,Private,Advertising & Marketing,Finance & Consulting,
+Software Engineering,2.0,60.0,127.0,93.5,4.0,Other,Other,Yes,Small,23.0,Private,Computer Hardware & Software,Technology,7500000.0
+Data Science,2.0,,,,3.6,ca,Other,No,Large,9.0,Public Service,Federal Agencies,Other Services,
+Data Analysis,2.0,31.0,57.0,44.0,3.4,Other,Other,Yes,Medium,34.0,Public,Telecommunications Manufacturing,Technology,75000000.0
+Data Engineering,3.0,105.0,194.0,149.5,3.8,Other,ca,No,Medium,15.0,Private,Computer Hardware & Software,Technology,
+Data Engineering,1.0,45.0,86.0,65.5,3.5,Other,Other,Yes,Large,18.0,Private,Research & Development,Finance & Consulting,
+Data Engineering,2.0,75.0,143.0,109.0,4.4,va,ca,No,,10.0,Private,Enterprise Software & Network Solutions,Technology,
+Data Engineering,2.0,,,,4.2,Other,Other,No,Very Large,,Public Service,Religious Organizations,Other Services,
+Data Engineering,3.0,126.0,228.0,177.0,3.7,ca,ca,Yes,Large,37.0,Private,Computer Hardware & Software,Technology,75000000.0
+Data Science,2.0,,,,3.9,Other,ca,No,Medium,,Private,IT Services,Technology,37500000.0
+Data Science,2.0,80.0,134.0,107.0,4.7,va,ma,No,Medium,15.0,Private,Aerospace & Defense,Industrial & Energy,300000000.0
+Data Science,2.0,120.0,189.0,154.5,4.1,ca,ca,Yes,Medium,13.0,Private,Enterprise Software & Network Solutions,Technology,
+Data Science,2.0,,,,3.9,Other,Other,No,Large,29.0,Private,Computer Hardware & Software,Technology,300000000.0
+Data Science,2.0,85.0,142.0,113.5,4.0,ny,Other,No,,,Private,Accounting,Finance & Consulting,500000.0
+Data Science,4.0,95.0,154.0,124.5,3.5,Other,Other,Yes,Large,8.0,Public,Insurance Carriers,Finance & Consulting,
+Data Science,2.0,111.0,176.0,143.5,2.5,ca,ca,Yes,,,Private,Biotech & Pharmaceuticals,Healthcare & Education,
+Data Science,2.0,87.0,140.0,113.5,3.9,ca,Other,No,,,Private,IT Services,Technology,500000.0
+Data Science,2.0,76.0,127.0,101.5,3.4,va,va,No,Very Large,56.0,Public,Aerospace & Defense,Industrial & Energy,10000000000.0
+Data Analysis,2.0,54.0,92.0,73.0,3.6,ny,ca,No,Very Large,90.0,Private,Health Care Products Manufacturing,Industrial & Energy,3500000000.0
+Data Analysis,2.0,,,,4.4,ny,ca,No,Small,15.0,Private,Staffing & Outsourcing,Finance & Consulting,37500000.0
+Data Science,2.0,61.0,100.0,80.5,3.5,ny,Other,No,Very Large,9.0,Public,Consulting,Finance & Consulting,3500000000.0
+Data Science,2.0,81.0,140.0,110.5,3.770932754880694,ny,Other,No,,,Private,Biotech & Pharmaceuticals,Technology,
+Others,2.0,,,,3.770932754880694,ma,ny,No,,,Private,Biotech & Pharmaceuticals,Technology,
+Data Engineering,3.0,80.0,148.0,114.0,2.9,ca,ny,No,Small,27.0,Private,Advertising & Marketing,Finance & Consulting,
+Data Science,2.0,108.0,171.0,139.5,3.5,ca,Other,No,Small,,Private,"Health, Beauty, & Fitness",Consumer & Retail,7500000.0
+Data Science,2.0,112.0,179.0,145.5,4.8,ny,Other,No,,14.0,Private,IT Services,Technology,
+Data Science,2.0,63.0,111.0,87.0,4.0,ny,ny,Yes,Medium,18.0,Private,Lending,Finance & Consulting,300000000.0
+Data Science,2.0,75.0,126.0,100.5,4.2,ma,ma,Yes,Medium,140.0,Private,Banks & Credit Unions,Finance & Consulting,75000000.0
+Data Science,5.0,110.0,184.0,147.0,3.8,ny,Other,No,Very Large,58.0,Public,Enterprise Software & Network Solutions,Technology,10000000000.0
+Data Engineering,2.0,76.0,145.0,110.5,3.7,ny,ny,Yes,Medium,111.0,Private,Insurance Carriers,Finance & Consulting,300000000.0
+Data Science,2.0,,,,4.4,ca,Other,No,,,Private,Security Services,Finance & Consulting,
+Others,2.0,,,,5.0,Other,Other,No,Small,14.0,Private,Biotech & Pharmaceuticals,Healthcare & Education,3000000.0
+Data Analysis,2.0,36.0,62.0,49.0,3.9,pa,pa,Yes,Medium,88.0,Public Service,Banks & Credit Unions,Finance & Consulting,
+Data Science,2.0,70.0,118.0,94.0,4.6,ma,Other,No,Small,,Private,Consulting,Finance & Consulting,7500000.0
+Data Science,2.0,,,,4.4,ca,ca,No,Small,15.0,Private,Staffing & Outsourcing,Finance & Consulting,37500000.0
+Data Science,4.0,94.0,153.0,123.5,4.3,ny,ny,Yes,Large,26.0,Public,Enterprise Software & Network Solutions,Technology,
+Data Science,4.0,,,,2.9,ny,ny,Yes,Large,32.0,Public Service,Insurance Carriers,Finance & Consulting,
+Others,7.0,54.0,115.0,84.5,3.3,ny,ny,Yes,Very Large,11.0,Public Service,Health Care Services & Hospitals,Healthcare & Education,
+Data Analysis,2.0,50.0,92.0,71.0,3.7,va,va,Yes,Medium,36.0,Private,IT Services,Technology,300000000.0
+Data Engineering,2.0,49.0,97.0,73.0,4.0,Other,ca,No,Very Large,86.0,Public,Computer Hardware & Software,Technology,
+Machine Learning,,67.0,135.0,101.0,3.6,ma,ma,No,Large,174.0,Private,Insurance Carriers,Finance & Consulting,10000000000.0
+Machine Learning,3.0,138.0,224.0,181.0,3.9,ca,ca,Yes,Medium,18.0,Private,Internet,Technology,17500000.0
+Data Science,2.0,80.0,139.0,109.5,3.7,ca,va,No,Very Large,86.0,Public,Aerospace & Defense,Industrial & Energy,10000000000.0
+Data Science,6.0,158.0,211.0,184.5,3.7,Other,ca,No,Very Large,67.0,Public,IT Services,Technology,10000000000.0
+Data Science,4.0,150.0,180.0,165.0,3.9,ny,ny,Yes,Medium,11.0,Private,Enterprise Software & Network Solutions,Technology,
+Data Analysis,2.0,42.0,80.0,61.0,3.7,il,il,Yes,Very Large,97.0,Public,Computer Hardware & Software,Technology,7500000000.0
+Data Engineering,6.0,190.0,220.0,205.0,4.1,ca,ca,Yes,Small,15.0,Private,Internet,Technology,75000000.0
+Data Analysis,2.0,42.0,77.0,59.5,3.1,ny,ny,Yes,Large,19.0,Public Service,K-12 Education,Healthcare & Education,300000000.0
+Others,2.0,68.0,139.0,103.5,3.1,Other,Other,No,Large,150.0,Private,Consumer Products Manufacturing,Industrial & Energy,10000000000.0
+Data Engineering,4.0,,,,4.2,Other,ny,No,Small,11.0,Private,Lending,Finance & Consulting,
+Data Science,2.0,,,,3.770932754880694,ny,ny,Yes,,,Private,Biotech & Pharmaceuticals,Technology,
+Data Analysis,2.0,54.0,71.0,62.5,3.0,Other,Other,No,Very Large,44.0,Public,IT Services,Technology,10000000000.0
+Data Analysis,5.0,34.0,92.0,63.0,3.6,ma,ma,Yes,Large,174.0,Private,Insurance Carriers,Finance & Consulting,10000000000.0
+Medical/Healthcare,4.0,,,,4.6,ca,ca,Yes,Medium,12.0,Private,Biotech & Pharmaceuticals,Healthcare & Education,
+Data Analysis,2.0,47.0,85.0,66.0,3.6,ny,ny,Yes,,45.0,Private,Health Care Services & Hospitals,Healthcare & Education,17500000.0
+Data Engineering,2.0,65.0,124.0,94.5,3.5,ca,ca,Yes,Medium,12.0,Private,Health Care Services & Hospitals,Healthcare & Education,
+Data Science,2.0,,,,3.770932754880694,ca,Other,No,,,Private,Biotech & Pharmaceuticals,Technology,
+Data Science,2.0,56.0,95.0,75.5,4.2,ny,ny,Yes,Small,13.0,Private,Education Training Services,Healthcare & Education,
+Data Analysis,5.0,,,,3.3,Other,Other,No,Small,44.0,Private,Staffing & Outsourcing,Finance & Consulting,7500000.0
+Data Science,2.0,,,,3.770932754880694,ny,Other,No,,,Private,Biotech & Pharmaceuticals,Technology,
+Machine Learning,2.0,62.0,112.0,87.0,4.0,va,va,No,Medium,71.0,Public,Aerospace & Defense,Industrial & Energy,300000000.0
+Data Science,4.0,107.0,173.0,140.0,3.9,Other,Other,No,Very Large,112.0,Public,Biotech & Pharmaceuticals,Healthcare & Education,10000000000.0
+Data Science,2.0,64.0,108.0,86.0,3.7,Other,va,No,Medium,19.0,Private,IT Services,Technology,37500000.0
+Data Science,4.0,89.0,144.0,116.5,4.4,ca,ca,Yes,,13.0,Private,Internet,Technology,
+Data Science,5.0,,,,3.770932754880694,ny,ny,Yes,,,Private,Biotech & Pharmaceuticals,Technology,
+Others,4.0,109.0,200.0,154.5,3.5,ma,ma,Yes,Large,15.0,Private,Biotech & Pharmaceuticals,Healthcare & Education,1500000000.0
+Data Science,2.0,,,,3.770932754880694,ca,Other,No,,,Private,Biotech & Pharmaceuticals,Technology,
+Machine Learning,2.0,61.0,113.0,87.0,3.7,Other,il,No,Medium,52.0,Public,Stock Exchanges,Finance & Consulting,
+Data Analysis,2.0,35.0,62.0,48.5,3.6,ca,ca,Yes,Large,39.0,Private,Gambling,Other Services,300000000.0
+Data Engineering,2.0,55.0,105.0,80.0,3.4,Other,ca,No,Medium,23.0,Private,IT Services,Technology,1500000000.0
+Medical/Healthcare,2.0,18.0,25.0,21.5,4.0,Other,Other,No,Large,48.0,Public Service,Health Care Services & Hospitals,Healthcare & Education,75000000.0
+Research,2.0,39.0,66.0,52.5,2.4,il,Other,No,Medium,,Private,Food & Beverage Manufacturing,Industrial & Energy,300000000.0
+Data Science,7.0,135.0,211.0,173.0,3.7,ca,va,No,Very Large,86.0,Public,Aerospace & Defense,Industrial & Energy,10000000000.0
+Data Engineering,2.0,57.0,80.0,68.5,3.5,Other,ca,No,Medium,28.0,Private,Biotech & Pharmaceuticals,Healthcare & Education,
+Data Science,2.0,129.0,215.0,172.0,4.4,ny,ny,Yes,Large,24.0,Private,Investment Banking & Asset Management,Finance & Consulting,
+Data Science,2.0,86.0,143.0,114.5,3.3,ma,ma,Yes,Very Large,113.0,Private,Insurance Carriers,Finance & Consulting,10000000000.0
+Others,7.0,63.0,127.0,95.0,3.9,Other,Other,No,Very Large,112.0,Public,Biotech & Pharmaceuticals,Healthcare & Education,10000000000.0
+Data Science,2.0,50.0,89.0,69.5,3.2,ma,ma,Yes,Large,67.0,Public Service,Federal Agencies,Other Services,1500000000.0
+Data Engineering,2.0,43.0,86.0,64.5,3.2,ny,ny,Yes,Medium,22.0,Private,Research & Development,Finance & Consulting,
+Data Science,4.0,,,,4.5,ca,ma,No,Medium,26.0,Private,Video Games,Other Services,
+Others,2.0,74.0,149.0,111.5,2.1,ca,ca,Yes,Medium,,Public,Biotech & Pharmaceuticals,Healthcare & Education,37500000.0
+Data Science,2.0,71.0,124.0,97.5,4.0,ny,ny,Yes,Medium,18.0,Private,Consumer Product Rental,Consumer & Retail,
+Data Engineering,,113.0,196.0,154.5,3.7,ma,Other,No,Very Large,,Public,Biotech & Pharmaceuticals,Healthcare & Education,10000000000.0
+Machine Learning,4.0,81.0,167.0,124.0,2.6,pa,pa,Yes,Medium,41.0,Public Service,Colleges & Universities,Healthcare & Education,
+Data Science,2.0,69.0,121.0,95.0,3.4,ny,Other,No,Medium,14.0,Private,Health Care Services & Hospitals,Healthcare & Education,
+Data Science,4.0,97.0,160.0,128.5,4.4,il,il,Yes,Medium,17.0,Private,Consulting,Finance & Consulting,75000000.0
+Data Science,7.0,150.0,238.0,194.0,3.2,ca,ca,Yes,Medium,19.0,Private,Enterprise Software & Network Solutions,Technology,
+Data Analysis,2.0,,,,3.1,Other,Other,Yes,Medium,23.0,Private,Enterprise Software & Network Solutions,Technology,37500000.0
+Data Engineering,2.0,,,,4.1,Other,ny,No,,18.0,Private,IT Services,Technology,7500000.0
+Data Science,2.0,77.0,132.0,104.5,3.5,ny,ny,Yes,Medium,20.0,Public,Advertising & Marketing,Finance & Consulting,
+Medical/Healthcare,2.0,24.0,39.0,31.5,3.7,Other,Other,Yes,Medium,59.0,Public Service,Health Care Services & Hospitals,Healthcare & Education,300000000.0
+Data Engineering,2.0,59.0,112.0,85.5,4.2,Other,il,No,Medium,17.0,Private,IT Services,Technology,
+Data Analysis,2.0,35.0,65.0,50.0,4.2,Other,Other,Yes,Very Large,,Public Service,Religious Organizations,Other Services,
+Data Engineering,2.0,79.0,147.0,113.0,3.1,ca,Other,No,Large,28.0,Public,Video Games,Other Services,10000000000.0
+Data Analysis,2.0,,,,3.7,va,va,No,Medium,36.0,Private,IT Services,Technology,300000000.0
+Business,,,,,2.7,ny,ny,Yes,Large,59.0,Public,Banks & Credit Unions,Finance & Consulting,10000000000.0
+Others,2.0,62.0,119.0,90.5,3.9,ma,Other,No,Very Large,195.0,Public,Biotech & Pharmaceuticals,Healthcare & Education,10000000000.0
+Data Science,,,,,3.8,ma,Other,No,Very Large,29.0,Public,Biotech & Pharmaceuticals,Healthcare & Education,10000000000.0
+Data Science,4.0,119.0,187.0,153.0,4.3,ca,ca,Yes,Small,17.0,Private,Computer Hardware & Software,Technology,
+Data Analysis,2.0,90.0,157.0,123.5,3.3,ca,ca,Yes,Large,37.0,Public,Consulting,Finance & Consulting,3500000000.0
+Data Analysis,6.0,32.0,62.0,47.0,3.9,ny,ny,Yes,Medium,15.0,Private,Internet,Technology,17500000.0
+Data Analysis,5.0,42.0,86.0,64.0,3.5,ca,ca,Yes,Medium,29.0,Public Service,Health Care Services & Hospitals,Healthcare & Education,
+Data Science,2.0,116.0,208.0,162.0,4.0,ca,ca,Yes,Very Large,43.0,Public,Computer Hardware & Software,Technology,7500000000.0
+Data Science,4.0,102.0,172.0,137.0,3.9,ny,Other,No,Very Large,112.0,Public,Biotech & Pharmaceuticals,Healthcare & Education,10000000000.0
+Data Engineering,4.0,69.0,127.0,98.0,3.0,Other,Other,Yes,Very Large,67.0,Private,Gas Stations,Consumer & Retail,10000000000.0
+Others,2.0,,,,2.3,Other,Other,Yes,Small,,Private,Biotech & Pharmaceuticals,Technology,
+Data Science,2.0,86.0,144.0,115.0,3.7,ny,Other,No,Very Large,162.0,Public,Insurance Agencies & Brokerages,Finance & Consulting,10000000000.0
+Data Science,4.0,102.0,165.0,133.5,3.5,Other,Other,No,Large,155.0,Public,Biotech & Pharmaceuticals,Healthcare & Education,1500000000.0
+Data Engineering,2.0,74.0,124.0,99.0,4.0,Other,Other,Yes,Medium,110.0,Public Service,Insurance Carriers,Finance & Consulting,
+Software Engineering,2.0,40.0,68.0,54.0,3.3,Other,Other,Yes,Medium,61.0,Private,Food & Beverage Manufacturing,Industrial & Energy,
+Data Engineering,4.0,76.0,142.0,109.0,3.2,Other,Other,No,Large,21.0,Private,Health Care Services & Hospitals,Healthcare & Education,
+Data Engineering,2.0,76.0,142.0,109.0,3.4,Other,va,No,Medium,26.0,Private,IT Services,Technology,37500000.0
+Data Science,4.0,108.0,171.0,139.5,4.4,ma,ma,Yes,Large,41.0,Private,Computer Hardware & Software,Technology,1500000000.0
+Data Science,,202.0,306.0,254.0,3.3,il,ma,No,Very Large,113.0,Private,Insurance Carriers,Finance & Consulting,10000000000.0
+Machine Learning,2.0,91.0,159.0,125.0,3.2,ny,ny,Yes,Large,50.0,Private,Computer Hardware & Software,Technology,
+Data Engineering,2.0,,,,4.1,ny,Other,No,Small,22.0,Private,Staffing & Outsourcing,Finance & Consulting,17500000.0
+Data Science,4.0,80.0,133.0,106.5,3.8,ma,Other,No,Very Large,29.0,Public,Biotech & Pharmaceuticals,Healthcare & Education,10000000000.0
+Others,2.0,49.0,97.0,73.0,2.9,ca,ca,No,Medium,13.0,Private,Biotech & Pharmaceuticals,Healthcare & Education,
+Medical/Healthcare,5.0,,,,5.0,ca,ca,Yes,Small,12.0,Public,Biotech & Pharmaceuticals,Healthcare & Education,
+Others,3.0,49.0,113.0,81.0,2.7,Other,Other,Yes,Medium,64.0,Private,Biotech & Pharmaceuticals,Healthcare & Education,37500000.0
+Medical/Healthcare,2.0,21.0,34.0,27.5,3.6,ny,Other,No,Large,90.0,Public Service,Health Care Services & Hospitals,Healthcare & Education,300000000.0
+Others,2.0,65.0,134.0,99.5,3.1,Other,Other,Yes,Large,150.0,Private,Consumer Products Manufacturing,Industrial & Energy,10000000000.0
+Data Engineering,2.0,,,,4.2,Other,Other,No,Very Large,,Public Service,Religious Organizations,Other Services,
+Data Analysis,1.0,32.0,59.0,45.5,3.3,Other,Other,Yes,Medium,36.0,Private,Insurance Carriers,Finance & Consulting,
+Data Science,,,,,3.8,ma,Other,No,Very Large,29.0,Public,Biotech & Pharmaceuticals,Healthcare & Education,10000000000.0
+Data Analysis,1.0,39.0,69.0,54.0,3.7,ma,ma,Yes,Large,173.0,Public,Insurance Carriers,Finance & Consulting,7500000000.0
+Data Engineering,4.0,87.0,158.0,122.5,4.5,Other,Other,Yes,Small,29.0,Private,Consulting,Finance & Consulting,37500000.0
+Data Analysis,2.0,27.0,48.0,37.5,3.0,Other,Other,Yes,Large,48.0,Private,Enterprise Software & Network Solutions,Technology,300000000.0
+Data Analysis,2.0,36.0,71.0,53.5,3.8,ny,ny,Yes,Large,23.0,Private,Travel Agencies,Other Services,3500000000.0
+Data Science,4.0,107.0,173.0,140.0,3.9,il,il,Yes,Large,57.0,Public,Financial Analytics & Research,Finance & Consulting,1500000000.0
+Data Science,4.0,56.0,99.0,77.5,3.2,va,ma,No,Large,67.0,Public Service,Federal Agencies,Other Services,1500000000.0
+Others,2.0,,,,2.9,ca,ca,No,Large,54.0,Private,Consumer Products Manufacturing,Industrial & Energy,1500000000.0
+Others,2.0,25.0,28.0,26.5,3.3,ma,ma,Yes,,49.0,Private,Construction,Industrial & Energy,
+Others,4.0,80.0,155.0,117.5,3.1,Other,Other,Yes,Large,150.0,Private,Consumer Products Manufacturing,Industrial & Energy,10000000000.0
+Others,2.0,43.0,98.0,70.5,2.4,ca,ca,Yes,Medium,19.0,Private,Biotech & Pharmaceuticals,Healthcare & Education,75000000.0
+Others,1.0,44.0,96.0,70.0,2.9,ny,Other,No,Large,10.0,Private,Biotech & Pharmaceuticals,Healthcare & Education,
+Data Analysis,5.0,45.0,78.0,61.5,4.8,ca,ca,Yes,Small,14.0,Private,Computer Hardware & Software,Technology,37500000.0
+Others,4.0,50.0,110.0,80.0,2.9,Other,Other,No,Large,10.0,Private,Biotech & Pharmaceuticals,Healthcare & Education,
+Data Science,2.0,60.0,99.0,79.5,4.7,Other,Other,Yes,Small,22.0,Private,Computer Hardware & Software,Technology,37500000.0
+Data Science,2.0,130.0,206.0,168.0,4.7,ca,ca,Yes,Medium,11.0,Private,Computer Hardware & Software,Technology,300000000.0
+Data Engineering,2.0,61.0,119.0,90.0,3.4,ma,ma,Yes,Large,37.0,Private,Insurance Carriers,Finance & Consulting,300000000.0
+Research,2.0,100.0,140.0,120.0,3.770932754880694,ma,ca,No,,,Private,Biotech & Pharmaceuticals,Technology,
+Data Analysis,4.0,99.0,178.0,138.5,3.9,ca,ca,Yes,Small,17.0,Public,Computer Hardware & Software,Technology,
+Data Science,7.0,86.0,137.0,111.5,3.6,pa,ny,No,Very Large,8.0,Public,Biotech & Pharmaceuticals,Healthcare & Education,3500000000.0
+Data Science,5.0,37.0,100.0,68.5,3.6,ma,ma,No,Large,174.0,Private,Insurance Carriers,Finance & Consulting,10000000000.0
+Others,4.0,58.0,111.0,84.5,3.9,ma,Other,No,Very Large,195.0,Public,Biotech & Pharmaceuticals,Healthcare & Education,10000000000.0
+Data Engineering,4.0,72.0,133.0,102.5,4.4,Other,ca,No,Large,19.0,Public,Internet,Technology,300000000.0
+Others,2.0,56.0,91.0,73.5,2.6,pa,pa,Yes,Medium,41.0,Public Service,Colleges & Universities,Healthcare & Education,
+Data Engineering,2.0,,,,4.8,Other,Other,No,Medium,10.0,Private,IT Services,Technology,37500000.0
+Research,2.0,61.0,126.0,93.5,3.6,Other,va,No,Medium,58.0,Public Service,Federal Agencies,Other Services,75000000.0
+Data Science,5.0,95.0,160.0,127.5,3.2,pa,pa,No,,,Private,Staffing & Outsourcing,Finance & Consulting,7500000.0
+Machine Learning,3.0,,,,4.6,ca,ca,Yes,Small,13.0,Private,Internet,Technology,
+Data Analysis,2.0,53.0,91.0,72.0,4.2,Other,Other,Yes,Very Large,,Public Service,Religious Organizations,Other Services,
+Others,2.0,101.0,158.0,129.5,3.6,ma,ma,No,Large,174.0,Private,Insurance Carriers,Finance & Consulting,10000000000.0
+Data Science,4.0,,,,4.3,ny,ca,No,Medium,14.0,Private,Enterprise Software & Network Solutions,Technology,
+Data Engineering,2.0,,,,4.2,ny,ny,Yes,Small,11.0,Private,Lending,Finance & Consulting,
+Data Analysis,2.0,33.0,61.0,47.0,3.1,Other,Other,Yes,Large,48.0,Private,Consumer Products Manufacturing,Industrial & Energy,
+Data Engineering,2.0,44.0,86.0,65.0,3.8,Other,Other,Yes,Medium,11.0,Private,Consumer Product Rental,Consumer & Retail,
+Data Analysis,5.0,,,,4.8,pa,pa,Yes,Small,16.0,Private,Publishing,Other Services,
+Data Analysis,2.0,43.0,77.0,60.0,3.8,Other,Other,Yes,Large,155.0,Public,Banks & Credit Unions,Finance & Consulting,1500000000.0
+Data Science,5.0,125.0,210.0,167.5,4.0,ny,ny,Yes,Very Large,176.0,Public,Biotech & Pharmaceuticals,Healthcare & Education,10000000000.0
+Data Analysis,2.0,44.0,86.0,65.0,3.8,ny,ny,Yes,Large,23.0,Private,Travel Agencies,Other Services,3500000000.0
+Others,4.0,,,,3.6,va,va,No,Small,17.0,Private,Consulting,Finance & Consulting,
+Data Analysis,4.0,69.0,119.0,94.0,4.0,va,va,No,Medium,13.0,Private,Enterprise Software & Network Solutions,Technology,300000000.0
+Data Analysis,4.0,65.0,110.0,87.5,1.9,ny,ny,Yes,Medium,15.0,Private,"Department, Clothing, & Shoe Stores",Consumer & Retail,300000000.0
+Data Engineering,4.0,67.0,127.0,97.0,4.0,va,va,No,Medium,13.0,Private,Enterprise Software & Network Solutions,Technology,300000000.0
+Data Engineering,4.0,78.0,147.0,112.5,4.3,Other,ca,No,Large,35.0,Private,Computer Hardware & Software,Technology,1500000000.0
+Medical/Healthcare,2.0,,,,3.5,ca,ca,Yes,Small,9.0,Private,Biotech & Pharmaceuticals,Healthcare & Education,
+Others,2.0,66.0,117.0,91.5,3.6,ny,ma,No,Large,174.0,Private,Insurance Carriers,Finance & Consulting,10000000000.0
+Others,2.0,37.0,66.0,51.5,3.3,Other,ny,No,Very Large,113.0,Private,Insurance Carriers,Finance & Consulting,10000000000.0
+Data Science,2.0,86.0,143.0,114.5,3.8,ma,Other,No,Very Large,29.0,Public,Biotech & Pharmaceuticals,Healthcare & Education,10000000000.0
+Data Science,2.0,84.0,146.0,115.0,4.3,ny,ny,Yes,Medium,14.0,Private,Consulting,Finance & Consulting,17500000.0
+Business,5.0,50.0,98.0,74.0,3.2,pa,pa,No,,,Private,Staffing & Outsourcing,Finance & Consulting,7500000.0
+Others,1.0,38.0,64.0,51.0,4.7,ca,ca,No,Small,53.0,Private,Architectural & Engineering Services,Finance & Consulting,17500000.0
+Data Engineering,4.0,90.0,110.0,100.0,3.4,Other,Other,No,Medium,44.0,Public,Health Care Services & Hospitals,Healthcare & Education,
+Data Science,4.0,92.0,150.0,121.0,3.8,ma,Other,No,Very Large,29.0,Public,Biotech & Pharmaceuticals,Healthcare & Education,10000000000.0
+Data Analysis,4.0,90.0,153.0,121.5,4.5,ca,ca,Yes,Medium,19.0,Private,Computer Hardware & Software,Technology,300000000.0
+Machine Learning,2.0,,,,4.7,ma,Other,No,Large,33.0,Private,Staffing & Outsourcing,Finance & Consulting,500000.0
+Data Science,1.0,43.0,82.0,62.5,3.1,ma,ny,No,Very Large,169.0,Private,Banks & Credit Unions,Finance & Consulting,10000000000.0
+Others,2.0,100.0,135.0,117.5,3.770932754880694,ma,Other,No,,,Private,Biotech & Pharmaceuticals,Technology,
+Data Science,4.0,93.0,151.0,122.0,3.9,Other,Other,Yes,Medium,13.0,Private,Computer Hardware & Software,Technology,
+Data Engineering,2.0,61.0,109.0,85.0,4.4,va,Other,No,Small,21.0,Private,IT Services,Technology,
+Data Engineering,2.0,42.0,79.0,60.5,3.4,Other,Other,No,Medium,23.0,Private,IT Services,Technology,75000000.0
+Data Science,6.0,139.0,221.0,180.0,3.9,ca,ca,Yes,Small,16.0,Private,Financial Analytics & Research,Finance & Consulting,75000000.0
+Others,2.0,40.0,101.0,70.5,4.7,Other,Other,Yes,Large,23.0,Private,Lending,Finance & Consulting,
+Data Engineering,2.0,84.0,153.0,118.5,3.3,va,va,No,Large,8.0,Private,Aerospace & Defense,Industrial & Energy,1500000000.0
+Data Analysis,2.0,52.0,81.0,66.5,3.9,il,Other,No,Medium,30.0,Private,Enterprise Software & Network Solutions,Technology,300000000.0
+Data Science,2.0,81.0,134.0,107.5,3.4,ma,Other,No,Large,82.0,Private,Consulting,Finance & Consulting,300000000.0
+Data Engineering,4.0,97.0,180.0,138.5,4.7,Other,Other,Yes,Small,15.0,Private,Security Services,Finance & Consulting,17500000.0
+Others,3.0,49.0,113.0,81.0,2.7,Other,Other,Yes,Medium,64.0,Private,Biotech & Pharmaceuticals,Healthcare & Education,37500000.0
+Data Engineering,2.0,44.0,73.0,58.5,3.8,il,il,Yes,Large,100.0,Private,Insurance Carriers,Finance & Consulting,3500000000.0
+Data Engineering,4.0,75.0,140.0,107.5,3.4,il,il,Yes,Large,20.0,Public,Transportation Management,Industrial & Energy,3500000000.0
+Others,2.0,84.0,157.0,120.5,3.8,ma,ma,Yes,Medium,17.0,Public,Biotech & Pharmaceuticals,Healthcare & Education,75000000.0
+Data Science,5.0,40.0,87.0,63.5,3.9,ca,ca,Yes,Medium,18.0,Private,Internet,Technology,17500000.0
+Others,2.0,68.0,139.0,103.5,3.1,Other,Other,No,Large,150.0,Private,Consumer Products Manufacturing,Industrial & Energy,10000000000.0
+Data Science,2.0,72.0,142.0,107.0,4.1,ca,Other,No,Large,44.0,Public,Computer Hardware & Software,Technology,1500000000.0
+Data Engineering,2.0,74.0,137.0,105.5,3.7,va,Other,No,Large,,Public,Aerospace & Defense,Industrial & Energy,3500000000.0
+Data Engineering,2.0,57.0,109.0,83.0,2.8,ca,ca,Yes,Medium,53.0,Private,Insurance Carriers,Finance & Consulting,
+Medical/Healthcare,4.0,,,,3.4,ca,ca,Yes,Very Large,20.0,Public Service,Health Care Services & Hospitals,Healthcare & Education,3500000000.0
+Data Engineering,6.0,121.0,203.0,162.0,4.0,ca,ca,No,Large,18.0,Private,Internet,Technology,
+Data Engineering,2.0,,,,4.0,Other,Other,No,,,Private,Biotech & Pharmaceuticals,Technology,
+Data Science,2.0,52.0,85.0,68.5,3.5,ca,ca,Yes,Large,56.0,Private,Computer Hardware & Software,Technology,1500000000.0
+Data Science,2.0,,,,4.5,ca,ca,Yes,Small,9.0,Private,Internet,Technology,
+Data Science,2.0,,,,4.4,va,va,No,Small,12.0,Private,Aerospace & Defense,Industrial & Energy,17500000.0
+Data Science,4.0,81.0,140.0,110.5,3.4,Other,ny,No,Very Large,47.0,Public,Insurance Carriers,Finance & Consulting,7500000000.0
+Data Engineering,4.0,83.0,148.0,115.5,3.7,Other,Other,Yes,Medium,,Private,Insurance Carriers,Finance & Consulting,300000000.0
+Research,1.0,59.0,116.0,87.5,3.0,ca,ca,Yes,Medium,31.0,Public,Biotech & Pharmaceuticals,Healthcare & Education,
+Data Science,4.0,60.0,101.0,80.5,3.8,Other,Other,Yes,Large,60.0,Public Service,Energy,Industrial & Energy,
+Data Engineering,4.0,,,,4.7,il,il,No,Small,11.0,Private,IT Services,Technology,3000000.0
+Data Analysis,2.0,,,,3.7,pa,pa,Yes,Medium,93.0,Private,Banks & Credit Unions,Finance & Consulting,1500000000.0
+Others,2.0,,,,4.4,ma,ma,Yes,Small,,Public,Biotech & Pharmaceuticals,Technology,
+Data Analysis,2.0,31.0,55.0,43.0,4.6,Other,Other,Yes,Medium,33.0,Private,Lending,Finance & Consulting,300000000.0
+Others,,,,,3.7,ma,Other,No,Very Large,52.0,Public,Biotech & Pharmaceuticals,Healthcare & Education,10000000000.0
+Data Science,,,,,3.8,ma,Other,No,Very Large,29.0,Public,Biotech & Pharmaceuticals,Healthcare & Education,10000000000.0
+Business,,102.0,178.0,140.0,4.4,ma,ma,Yes,Medium,22.0,Public,Biotech & Pharmaceuticals,Healthcare & Education,
+Medical/Healthcare,,136.0,208.0,172.0,4.0,ma,ny,No,Very Large,176.0,Public,Biotech & Pharmaceuticals,Healthcare & Education,10000000000.0
+Others,4.0,110.0,130.0,120.0,3.770932754880694,ma,ca,No,,,Private,Biotech & Pharmaceuticals,Technology,
+Data Analysis,4.0,48.0,85.0,66.5,3.0,pa,pa,Yes,Large,42.0,Private,Insurance Carriers,Finance & Consulting,7500000000.0
+Others,4.0,71.0,129.0,100.0,3.0,ca,ca,Yes,Medium,31.0,Public,Biotech & Pharmaceuticals,Healthcare & Education,
+Data Engineering,6.0,66.0,123.0,94.5,4.7,ca,ca,No,Small,19.0,Private,Staffing & Outsourcing,Finance & Consulting,3000000.0
+Data Science,5.0,171.0,272.0,221.5,4.2,ca,ca,Yes,Medium,14.0,Private,Health Care Services & Hospitals,Healthcare & Education,
+Data Science,4.0,92.0,146.0,119.0,3.8,Other,Other,No,Large,60.0,Public Service,Energy,Industrial & Energy,
+Data Engineering,2.0,65.0,126.0,95.5,3.5,il,il,Yes,Medium,30.0,Private,Consulting,Finance & Consulting,75000000.0
+Data Science,,150.0,239.0,194.5,3.3,il,ma,No,Very Large,113.0,Private,Insurance Carriers,Finance & Consulting,10000000000.0
+Medical/Healthcare,2.0,21.0,29.0,25.0,3.2,Other,Other,No,Very Large,29.0,Public Service,Health Care Services & Hospitals,Healthcare & Education,10000000000.0
+Data Analysis,4.0,10.0,17.0,13.5,2.7,Other,Other,No,Large,25.0,Public,Financial Transaction Processing,Finance & Consulting,3500000000.0
+Others,4.0,118.0,228.0,173.0,3.3,Other,ny,No,Large,52.0,Private,Brokerage Services,Finance & Consulting,1500000000.0
+Data Science,2.0,82.0,129.0,105.5,3.7,Other,Other,Yes,Medium,,Public Service,Colleges & Universities,Healthcare & Education,
+Research,4.0,52.0,91.0,71.5,3.9,Other,Other,Yes,Large,78.0,Public Service,Research & Development,Finance & Consulting,
+Others,4.0,47.0,101.0,74.0,3.1,Other,Other,Yes,Large,150.0,Private,Consumer Products Manufacturing,Industrial & Energy,10000000000.0
+Others,,,,,2.6,pa,pa,Yes,Medium,41.0,Public Service,Colleges & Universities,Healthcare & Education,
+Others,4.0,,,,4.1,ma,ma,Yes,Medium,17.0,Public,Biotech & Pharmaceuticals,Healthcare & Education,
+Data Analysis,2.0,49.0,76.0,62.5,3.7,Other,ma,No,Very Large,103.0,Public,Aerospace & Defense,Industrial & Energy,10000000000.0
+Research,4.0,43.0,88.0,65.5,4.3,Other,Other,No,Large,67.0,Public Service,Research & Development,Finance & Consulting,
+Data Science,2.0,,,,4.9,Other,Other,No,,12.0,Private,Enterprise Software & Network Solutions,Technology,500000.0
+Data Science,2.0,61.0,109.0,85.0,3.8,pa,pa,Yes,Very Large,77.0,Public,Sporting Goods Stores,Consumer & Retail,7500000000.0
+Data Engineering,6.0,,,,3.770932754880694,ny,ny,Yes,,,Private,Biotech & Pharmaceuticals,Technology,
+Data Science,7.0,113.0,182.0,147.5,3.9,Other,Other,No,Very Large,112.0,Public,Biotech & Pharmaceuticals,Healthcare & Education,10000000000.0
+Software Engineering,5.0,,,,3.2,Other,ny,No,Very Large,167.0,Public,"Department, Clothing, & Shoe Stores",Consumer & Retail,10000000000.0
+Business,2.0,,,,4.4,ny,ca,No,,9.0,Private,Internet,Technology,17500000.0
+Data Science,,124.0,199.0,161.5,3.6,Other,Other,Yes,Large,36.0,Private,Advertising & Marketing,Finance & Consulting,
+Data Engineering,2.0,58.0,104.0,81.0,3.7,va,va,Yes,Very Large,126.0,Public Service,Health Care Services & Hospitals,Healthcare & Education,1500000000.0
+Data Analysis,4.0,52.0,93.0,72.5,2.1,pa,pa,Yes,Large,22.0,Private,Biotech & Pharmaceuticals,Healthcare & Education,300000000.0
+Others,4.0,,,,5.0,ca,ca,Yes,Small,9.0,Private,Biotech & Pharmaceuticals,Healthcare & Education,
+Data Engineering,4.0,97.0,181.0,139.0,3.9,ca,ca,Yes,Small,17.0,Public,Computer Hardware & Software,Technology,17500000.0
+Data Engineering,4.0,100.0,173.0,136.5,3.9,ca,ca,Yes,Medium,18.0,Private,Internet,Technology,17500000.0
+Data Analysis,4.0,58.0,108.0,83.0,3.2,ny,ny,Yes,Medium,17.0,Private,Internet,Technology,
+Research,4.0,81.0,161.0,121.0,4.6,ma,ma,Yes,Small,34.0,Private,Research & Development,Finance & Consulting,7500000.0
+Data Science,1.0,53.0,96.0,74.5,3.8,ny,ny,Yes,Large,23.0,Private,Travel Agencies,Other Services,3500000000.0
+Data Analysis,2.0,61.0,110.0,85.5,2.2,ca,ca,Yes,Medium,23.0,Private,Beauty & Personal Accessories Stores,Consumer & Retail,
+Others,4.0,65.0,96.0,80.5,3.1,Other,Other,Yes,Large,150.0,Private,Consumer Products Manufacturing,Industrial & Energy,10000000000.0
+Data Science,5.0,,,,3.8,Other,ca,No,Large,20.0,Public,Lending,Finance & Consulting,
+Others,4.0,,,,4.1,ma,ma,Yes,Medium,17.0,Public,Biotech & Pharmaceuticals,Healthcare & Education,
+Research,7.0,115.0,220.0,167.5,4.6,ma,ma,Yes,Small,34.0,Private,Research & Development,Finance & Consulting,7500000.0
+Machine Learning,2.0,71.0,144.0,107.5,2.6,pa,pa,Yes,Medium,41.0,Public Service,Colleges & Universities,Healthcare & Education,
+Data Analysis,2.0,32.0,57.0,44.5,3.4,Other,Other,Yes,Medium,46.0,Public Service,Social Assistance,Other Services,37500000.0
+Data Analysis,4.0,79.0,136.0,107.5,3.3,Other,Other,No,Large,136.0,Private,Health Care Services & Hospitals,Healthcare & Education,
+Research,7.0,120.0,145.0,132.5,3.770932754880694,ma,ca,No,,,Private,Biotech & Pharmaceuticals,Technology,
+Data Analysis,4.0,50.0,89.0,69.5,3.7,pa,pa,No,Medium,31.0,Private,Health Care Services & Hospitals,Healthcare & Education,
+Others,4.0,68.0,129.0,98.5,3.5,ca,ca,No,Very Large,55.0,Public,Computer Hardware & Software,Technology,10000000000.0
+Others,2.0,48.0,113.0,80.5,2.7,Other,Other,Yes,Medium,64.0,Private,Biotech & Pharmaceuticals,Healthcare & Education,37500000.0
+Medical/Healthcare,2.0,27.0,47.0,37.0,3.8,ma,ma,Yes,Small,17.0,Private,Biotech & Pharmaceuticals,Healthcare & Education,17500000.0
+Software Engineering,3.0,74.0,124.0,99.0,3.7,Other,ma,No,Very Large,103.0,Public,Aerospace & Defense,Industrial & Energy,10000000000.0
+Medical/Healthcare,5.0,68.0,125.0,96.5,3.8,ma,ma,Yes,Medium,17.0,Public,Biotech & Pharmaceuticals,Healthcare & Education,75000000.0
+Data Science,,39.0,67.0,53.0,3.3,ma,ma,Yes,Very Large,113.0,Private,Insurance Carriers,Finance & Consulting,10000000000.0
+Data Engineering,4.0,71.0,135.0,103.0,2.7,ca,ca,Yes,,14.0,Private,Enterprise Software & Network Solutions,Technology,
+Data Science,4.0,107.0,172.0,139.5,3.8,ca,ca,Yes,Medium,19.0,Public,Financial Transaction Processing,Finance & Consulting,75000000.0
+Data Science,2.0,49.0,85.0,67.0,3.8,Other,Other,Yes,Large,60.0,Public Service,Energy,Industrial & Energy,
+Data Analysis,2.0,54.0,71.0,62.5,3.0,Other,Other,No,Very Large,44.0,Public,IT Services,Technology,10000000000.0
+Others,2.0,61.0,123.0,92.0,3.9,Other,Other,No,Very Large,112.0,Public,Biotech & Pharmaceuticals,Healthcare & Education,10000000000.0
+Data Analysis,2.0,47.0,85.0,66.0,3.6,ny,ny,Yes,,45.0,Private,Health Care Services & Hospitals,Healthcare & Education,17500000.0
+Data Science,2.0,,,,3.770932754880694,ca,Other,No,,,Private,Biotech & Pharmaceuticals,Technology,
+Medical/Healthcare,4.0,,,,4.6,ca,ca,Yes,Medium,12.0,Private,Biotech & Pharmaceuticals,Healthcare & Education,
+Data Analysis,5.0,,,,3.3,Other,Other,No,Small,44.0,Private,Staffing & Outsourcing,Finance & Consulting,7500000.0
+Data Engineering,2.0,65.0,124.0,94.5,3.5,ca,ca,Yes,Medium,12.0,Private,Health Care Services & Hospitals,Healthcare & Education,
+Data Science,2.0,87.0,141.0,114.0,3.6,Other,Other,Yes,Large,36.0,Private,Advertising & Marketing,Finance & Consulting,
+Data Science,2.0,56.0,95.0,75.5,4.2,ny,ny,Yes,Small,13.0,Private,Education Training Services,Healthcare & Education,
+Data Science,2.0,71.0,121.0,96.0,3.5,Other,Other,No,,,Public Service,K-12 Education,Healthcare & Education,7500000.0
+Machine Learning,2.0,62.0,112.0,87.0,4.0,va,va,No,Medium,71.0,Public,Aerospace & Defense,Industrial & Energy,300000000.0
+Data Science,2.0,64.0,108.0,86.0,3.7,Other,va,No,Medium,19.0,Private,IT Services,Technology,37500000.0
+Data Science,2.0,,,,3.770932754880694,ny,Other,No,,,Private,Biotech & Pharmaceuticals,Technology,
+Data Science,2.0,,,,4.0,il,Other,No,,,Private,Staffing & Outsourcing,Finance & Consulting,3000000.0
+Data Science,5.0,,,,3.770932754880694,ny,ny,Yes,,,Private,Biotech & Pharmaceuticals,Technology,
+Data Science,4.0,89.0,144.0,116.5,4.4,ca,ca,Yes,,13.0,Private,Internet,Technology,
+Data Science,2.0,,,,4.4,Other,Other,No,Medium,19.0,Private,Staffing & Outsourcing,Finance & Consulting,7500000.0
+Data Science,2.0,,,,3.770932754880694,ca,Other,No,,,Private,Biotech & Pharmaceuticals,Technology,
+Others,4.0,109.0,200.0,154.5,3.5,ma,ma,Yes,Large,15.0,Private,Biotech & Pharmaceuticals,Healthcare & Education,1500000000.0
+Data Science,2.0,,,,3.9,Other,ca,No,Medium,,Private,IT Services,Technology,37500000.0
+Data Science,2.0,,,,3.770932754880694,ny,Other,No,,,Private,Biotech & Pharmaceuticals,Technology,
+Data Analysis,2.0,35.0,62.0,48.5,3.6,ca,ca,Yes,Large,39.0,Private,Gambling,Other Services,300000000.0
+Machine Learning,2.0,61.0,113.0,87.0,3.7,Other,il,No,Medium,52.0,Public,Stock Exchanges,Finance & Consulting,
+Data Engineering,2.0,55.0,105.0,80.0,3.4,Other,ca,No,Medium,23.0,Private,IT Services,Technology,1500000000.0
+Medical/Healthcare,2.0,18.0,25.0,21.5,4.0,Other,Other,No,Large,48.0,Public Service,Health Care Services & Hospitals,Healthcare & Education,75000000.0
+Data Science,7.0,135.0,211.0,173.0,3.7,ca,va,No,Very Large,86.0,Public,Aerospace & Defense,Industrial & Energy,10000000000.0
+Research,2.0,39.0,66.0,52.5,2.4,il,Other,No,Medium,,Private,Food & Beverage Manufacturing,Industrial & Energy,300000000.0
+Data Engineering,2.0,57.0,80.0,68.5,3.5,Other,ny,No,Medium,28.0,Private,Biotech & Pharmaceuticals,Healthcare & Education,
+Others,7.0,63.0,127.0,95.0,3.9,Other,Other,No,Very Large,112.0,Public,Biotech & Pharmaceuticals,Healthcare & Education,10000000000.0
+Data Science,2.0,50.0,89.0,69.5,3.2,ma,ny,No,Large,67.0,Public Service,Federal Agencies,Other Services,1500000000.0
+Data Science,4.0,82.0,132.0,107.0,4.4,Other,Other,Yes,Medium,140.0,Private,Metals Brokers,Industrial & Energy,
+Data Science,4.0,85.0,139.0,112.0,3.9,va,va,No,Medium,15.0,Private,IT Services,Technology,300000000.0
+Data Science,2.0,,,,3.5,Other,Other,No,Large,29.0,Private,IT Services,Technology,300000000.0
+Data Science,2.0,72.0,121.0,96.5,3.4,Other,Other,No,Small,28.0,Private,Consulting,Finance & Consulting,17500000.0
+Others,2.0,74.0,149.0,111.5,2.1,ny,ca,No,Medium,,Public,Biotech & Pharmaceuticals,Healthcare & Education,37500000.0
+Data Science,2.0,,,,3.770932754880694,ca,Other,No,,,Private,Biotech & Pharmaceuticals,Technology,
+Data Engineering,,113.0,196.0,154.5,3.7,ma,Other,No,Very Large,,Public,Biotech & Pharmaceuticals,Healthcare & Education,10000000000.0
+Data Science,2.0,69.0,121.0,95.0,3.4,ny,Other,No,Medium,14.0,Private,Health Care Services & Hospitals,Healthcare & Education,
+Data Science,2.0,71.0,124.0,97.5,4.0,ny,ny,Yes,Medium,18.0,Private,Consumer Product Rental,Consumer & Retail,
+Data Science,4.0,97.0,160.0,128.5,4.4,il,il,Yes,Medium,17.0,Private,Consulting,Finance & Consulting,75000000.0
+Machine Learning,4.0,81.0,167.0,124.0,2.6,pa,ny,No,Medium,41.0,Public Service,Colleges & Universities,Healthcare & Education,
+Data Science,7.0,150.0,238.0,194.0,3.2,ca,ca,Yes,Medium,19.0,Private,Enterprise Software & Network Solutions,Technology,
+Data Analysis,2.0,,,,3.8,Other,Other,Yes,Medium,23.0,Private,Aerospace & Defense,Industrial & Energy,
+Data Analysis,2.0,,,,3.1,Other,Other,Yes,Medium,23.0,Private,Enterprise Software & Network Solutions,Technology,37500000.0
+Data Engineering,2.0,,,,4.1,Other,ny,No,,18.0,Private,IT Services,Technology,7500000.0
+Medical/Healthcare,2.0,24.0,39.0,31.5,3.7,Other,Other,Yes,Medium,59.0,Public Service,Health Care Services & Hospitals,Healthcare & Education,300000000.0
+Data Science,2.0,,,,4.7,ca,ca,No,Small,19.0,Private,Staffing & Outsourcing,Finance & Consulting,3000000.0
+Data Analysis,2.0,35.0,65.0,50.0,4.2,Other,Other,Yes,Very Large,,Public Service,Religious Organizations,Other Services,
+Data Science,2.0,77.0,132.0,104.5,3.5,ny,ny,Yes,Medium,20.0,Public,Advertising & Marketing,Finance & Consulting,
+Data Science,2.0,51.0,88.0,69.5,4.3,Other,ca,No,Medium,56.0,Private,IT Services,Technology,75000000.0
+Data Science,2.0,101.0,141.0,121.0,2.6,ca,ca,Yes,Very Large,28.0,Private,Colleges & Universities,Healthcare & Education,
+Data Engineering,2.0,59.0,112.0,85.5,4.2,Other,il,No,Medium,17.0,Private,IT Services,Technology,
+Data Analysis,2.0,,,,3.7,va,va,No,Medium,36.0,Private,IT Services,Technology,300000000.0
+Data Engineering,2.0,79.0,147.0,113.0,3.1,ca,Other,No,Large,28.0,Public,Video Games,Other Services,10000000000.0
+Data Science,2.0,79.0,127.0,103.0,3.8,ca,Other,No,Medium,20.0,Private,Consumer Products Manufacturing,Industrial & Energy,37500000.0
+Data Science,2.0,,,,3.3,Other,Other,No,Large,39.0,Private,Consulting,Finance & Consulting,300000000.0
+Others,2.0,62.0,119.0,90.5,3.9,ma,Other,No,Very Large,195.0,Public,Biotech & Pharmaceuticals,Healthcare & Education,10000000000.0
+Data Science,4.0,119.0,187.0,153.0,4.3,ca,ca,Yes,Small,17.0,Private,Computer Hardware & Software,Technology,
+Business,,,,,2.7,ny,ny,Yes,Large,59.0,Public,Banks & Credit Unions,Finance & Consulting,10000000000.0
+Data Science,2.0,,,,4.5,Other,ma,No,Large,36.0,Private,Staffing & Outsourcing,Finance & Consulting,300000000.0
+Data Science,2.0,,,,5.0,ca,ca,Yes,Small,,Private,Computer Hardware & Software,Technology,3000000.0
+Data Science,,,,,3.8,ma,Other,No,Very Large,29.0,Public,Biotech & Pharmaceuticals,Healthcare & Education,10000000000.0
+Data Science,1.0,81.0,132.0,106.5,3.2,va,ma,No,Large,67.0,Public Service,Federal Agencies,Other Services,1500000000.0
+Data Science,4.0,120.0,140.0,130.0,5.0,Other,Other,Yes,Small,14.0,Private,Computer Hardware & Software,Technology,
+Data Science,2.0,,,,4.3,Other,Other,No,Medium,29.0,Private,Staffing & Outsourcing,Finance & Consulting,75000000.0
+Data Analysis,2.0,90.0,157.0,123.5,3.3,ca,ca,Yes,Large,37.0,Public,Consulting,Finance & Consulting,3500000000.0
+Others,2.0,63.0,110.0,86.5,4.3,ny,ny,Yes,Large,26.0,Public,Enterprise Software & Network Solutions,Technology,
+Data Analysis,5.0,42.0,86.0,64.0,3.5,ca,ca,Yes,Medium,29.0,Public Service,Health Care Services & Hospitals,Healthcare & Education,
+Data Analysis,6.0,32.0,62.0,47.0,3.9,ny,ny,Yes,Medium,15.0,Private,Internet,Technology,17500000.0
+Data Science,2.0,116.0,208.0,162.0,4.0,ca,ca,Yes,Very Large,43.0,Public,Computer Hardware & Software,Technology,7500000000.0
+Data Science,4.0,107.0,173.0,140.0,3.9,Other,Other,No,Very Large,112.0,Public,Biotech & Pharmaceuticals,Healthcare & Education,10000000000.0
+Data Science,2.0,65.0,113.0,89.0,3.4,Other,Other,No,Small,,Private,IT Services,Technology,7500000.0
+Data Engineering,4.0,69.0,127.0,98.0,3.0,Other,Other,Yes,Very Large,67.0,Private,Gas Stations,Consumer & Retail,10000000000.0
+Others,2.0,,,,2.3,Other,Other,Yes,Small,,Private,Biotech & Pharmaceuticals,Technology,
+Data Science,4.0,102.0,172.0,137.0,3.9,ny,Other,No,Very Large,112.0,Public,Biotech & Pharmaceuticals,Healthcare & Education,10000000000.0
+Data Science,2.0,,,,5.0,va,Other,No,,23.0,Private,Staffing & Outsourcing,Finance & Consulting,
+Data Science,2.0,,,,5.0,ca,ca,No,Small,7.0,Private,Staffing & Outsourcing,Finance & Consulting,37500000.0
+Data Engineering,2.0,74.0,124.0,99.0,4.0,Other,Other,Yes,Medium,110.0,Public Service,Insurance Carriers,Finance & Consulting,
+Data Science,2.0,,,,3.6,Other,ca,No,Medium,23.0,Public,Staffing & Outsourcing,Finance & Consulting,
+Software Engineering,2.0,40.0,68.0,54.0,3.3,Other,Other,Yes,Medium,61.0,Private,Food & Beverage Manufacturing,Industrial & Energy,
+Data Engineering,4.0,76.0,142.0,109.0,3.2,Other,Other,No,Large,21.0,Private,Health Care Services & Hospitals,Healthcare & Education,
+Data Engineering,2.0,76.0,142.0,109.0,3.4,Other,va,No,Medium,26.0,Private,IT Services,Technology,37500000.0
+Data Science,4.0,108.0,171.0,139.5,4.4,ma,ma,Yes,Large,41.0,Private,Computer Hardware & Software,Technology,1500000000.0
+Data Science,,202.0,306.0,254.0,3.3,il,ma,No,Very Large,113.0,Private,Insurance Carriers,Finance & Consulting,10000000000.0
+Machine Learning,2.0,91.0,159.0,125.0,3.2,ny,ny,Yes,Large,50.0,Private,Computer Hardware & Software,Technology,
+Data Engineering,2.0,,,,4.1,ny,Other,No,Small,22.0,Private,Staffing & Outsourcing,Finance & Consulting,17500000.0
+Data Science,4.0,80.0,133.0,106.5,3.8,ma,Other,No,Very Large,29.0,Public,Biotech & Pharmaceuticals,Healthcare & Education,10000000000.0
+Medical/Healthcare,5.0,,,,5.0,ca,ca,Yes,Small,12.0,Public,Biotech & Pharmaceuticals,Healthcare & Education,
+Data Science,2.0,,,,4.2,Other,Other,No,Medium,25.0,Private,Staffing & Outsourcing,Finance & Consulting,37500000.0
+Medical/Healthcare,2.0,21.0,34.0,27.5,3.6,Other,Other,No,Large,90.0,Public Service,Health Care Services & Hospitals,Healthcare & Education,300000000.0
+Others,2.0,49.0,97.0,73.0,2.9,ca,ca,No,Medium,13.0,Private,Biotech & Pharmaceuticals,Healthcare & Education,
+Others,3.0,49.0,113.0,81.0,2.7,Other,Other,Yes,Medium,64.0,Private,Biotech & Pharmaceuticals,Healthcare & Education,37500000.0
+Data Science,2.0,,,,4.7,va,Other,No,,12.0,Private,Enterprise Software & Network Solutions,Technology,
+Data Engineering,2.0,,,,4.2,Other,Other,No,Very Large,,Public Service,Religious Organizations,Other Services,
+Data Science,2.0,96.0,161.0,128.5,3.2,pa,pa,No,,,Private,Staffing & Outsourcing,Finance & Consulting,7500000.0
+Data Science,2.0,,,,3.3,Other,Other,No,Small,31.0,Private,IT Services,Technology,75000000.0
+Others,2.0,65.0,134.0,99.5,3.1,Other,Other,Yes,Large,150.0,Private,Consumer Products Manufacturing,Industrial & Energy,10000000000.0
+Data Science,,,,,3.8,ma,Other,No,Very Large,29.0,Public,Biotech & Pharmaceuticals,Healthcare & Education,10000000000.0
+Others,4.0,59.0,125.0,92.0,4.0,ca,ca,No,Medium,19.0,Private,Biotech & Pharmaceuticals,Healthcare & Education,
+Data Analysis,1.0,32.0,59.0,45.5,3.3,Other,Other,Yes,Medium,36.0,Private,Insurance Carriers,Finance & Consulting,
+Data Engineering,4.0,87.0,158.0,122.5,4.5,Other,Other,Yes,Small,29.0,Private,Consulting,Finance & Consulting,37500000.0
+Data Analysis,2.0,27.0,48.0,37.5,3.0,Other,Other,Yes,Large,48.0,Private,Enterprise Software & Network Solutions,Technology,300000000.0
+Data Analysis,1.0,39.0,69.0,54.0,3.7,ma,ma,Yes,Large,173.0,Public,Insurance Carriers,Finance & Consulting,7500000000.0
+Data Analysis,2.0,36.0,71.0,53.5,3.8,ny,ny,Yes,Large,23.0,Private,Travel Agencies,Other Services,3500000000.0
+Data Science,4.0,107.0,173.0,140.0,3.9,il,il,Yes,Large,57.0,Public,Financial Analytics & Research,Finance & Consulting,1500000000.0
+Data Science,4.0,56.0,99.0,77.5,3.2,va,ma,No,Large,67.0,Public Service,Federal Agencies,Other Services,1500000000.0
+Others,2.0,25.0,28.0,26.5,3.3,ma,ma,Yes,,49.0,Private,Construction,Industrial & Energy,
+Others,2.0,,,,2.9,ca,ca,No,Large,54.0,Private,Consumer Products Manufacturing,Industrial & Energy,1500000000.0
+Others,4.0,80.0,155.0,117.5,3.1,Other,Other,Yes,Large,150.0,Private,Consumer Products Manufacturing,Industrial & Energy,10000000000.0
+Others,2.0,43.0,98.0,70.5,2.4,ca,ca,Yes,Medium,19.0,Private,Biotech & Pharmaceuticals,Healthcare & Education,75000000.0
+Data Analysis,5.0,45.0,78.0,61.5,4.8,ca,ca,Yes,Small,14.0,Private,Computer Hardware & Software,Technology,37500000.0
+Others,4.0,50.0,110.0,80.0,2.9,Other,Other,No,Large,10.0,Private,Biotech & Pharmaceuticals,Healthcare & Education,
+Others,1.0,44.0,96.0,70.0,2.9,ny,Other,No,Large,10.0,Private,Biotech & Pharmaceuticals,Healthcare & Education,
+Research,2.0,100.0,140.0,120.0,3.770932754880694,ma,ca,No,,,Private,Biotech & Pharmaceuticals,Technology,
+Data Engineering,2.0,61.0,119.0,90.0,3.4,ma,ma,Yes,Large,37.0,Private,Insurance Carriers,Finance & Consulting,300000000.0
+Machine Learning,2.0,80.0,142.0,111.0,4.1,ca,ca,Yes,,18.0,Private,K-12 Education,Healthcare & Education,
+Data Analysis,4.0,99.0,178.0,138.5,3.9,ca,ca,Yes,Small,17.0,Public,Computer Hardware & Software,Technology,
+Data Science,5.0,37.0,100.0,68.5,3.6,ma,ma,No,Large,174.0,Private,Insurance Carriers,Finance & Consulting,10000000000.0
+Data Engineering,2.0,62.0,113.0,87.5,3.9,ca,ca,Yes,Medium,14.0,Private,Internet,Technology,300000000.0
+Data Science,7.0,86.0,137.0,111.5,3.6,pa,Other,No,Very Large,8.0,Public,Biotech & Pharmaceuticals,Healthcare & Education,3500000000.0
+Others,4.0,58.0,111.0,84.5,3.9,ma,Other,No,Very Large,195.0,Public,Biotech & Pharmaceuticals,Healthcare & Education,10000000000.0
+Data Engineering,4.0,72.0,133.0,102.5,4.4,ny,ca,No,Large,19.0,Public,Internet,Technology,300000000.0
+Others,2.0,56.0,91.0,73.5,2.6,pa,pa,Yes,Medium,41.0,Public Service,Colleges & Universities,Healthcare & Education,
+Data Science,5.0,95.0,160.0,127.5,3.2,pa,pa,No,,,Private,Staffing & Outsourcing,Finance & Consulting,7500000.0
+Data Engineering,2.0,,,,4.8,Other,Other,No,Medium,10.0,Private,IT Services,Technology,37500000.0
+Research,2.0,61.0,126.0,93.5,3.6,Other,va,No,Medium,58.0,Public Service,Federal Agencies,Other Services,75000000.0
