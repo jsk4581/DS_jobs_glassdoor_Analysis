@@ -64,13 +64,13 @@ print(df.groupby('Industry')['avg_salary'].mean().sort_values(ascending=False).h
 
 # 수치형 변수 간의 상관관계 시각화
 sns.heatmap(df[['Company_age', 'Rating', 'avg_salary']].corr(), annot=True)
-plt.title("수치형 변수 간 상관관계")
+plt.title("Correlation Between Numerical Variables")
 plt.show()
 
 # 기업 규모별 급여 분포 시각화
 sns.boxplot(data=df, x='Size_cleaned', y='avg_salary')
 plt.xticks(rotation=45)
-plt.title("기업 규모별 급여 분포")
+plt.title("Salary Distribution by Company Size")
 plt.show()
 
 # 본사 위치에 따른 급여 분포 비교 (상위 10개 위치 기준)
@@ -78,12 +78,12 @@ top_states = df['Headquarters_state_binned'].value_counts().head(10).index
 sns.boxplot(data=df[df['Headquarters_state_binned'].isin(top_states)],
             x='Headquarters_state_binned', y='avg_salary')
 plt.xticks(rotation=45)
-plt.title("본사 위치에 따른 급여 분포")
+plt.title("Salary Distribution by Headquarters Location")
 plt.show()
 
 # 산업별 기업 나이와 급여의 관계 (다변량 시각화)
 sns.lmplot(data=df, x='Company_age', y='avg_salary', hue='Sector', fit_reg=False)
-plt.title("기업 연령과 급여 - 산업별 분포")
+plt.title("Company Age and Salary – Industry-wise Distribution")
 plt.show()
 
 """# 3. 기초 피처 엔지니어링
@@ -136,54 +136,73 @@ def evaluate_model(model, X, y):
     r2 = cross_val_score(model, X, y, cv=kf, scoring='r2').mean()
     return mae, mse, rmse, r2
 
-# 사용 모델 정의
-models = {
-    'RandomForest': RandomForestRegressor(random_state=42),
-    'XGBoost': XGBRegressor(random_state=42, verbosity=0),
-    'GradientBoosting': GradientBoostingRegressor(random_state=42)
-}
-
-# 각 모델에 대해 성능 평가
-for name, model in models.items():
-    mae, mse, rmse, r2 = evaluate_model(model, X_processed, y)
-    print(f"{name} -> MAE: {mae:.2f}, MSE: {mse:.2f}, RMSE: {rmse:.2f}, R2: {r2:.2f}")
 
 """# 5. 하이퍼 파라미터 튜닝
-- girdsearch
-- randomsearch
+- RandomForest 
+- XGBoost
 """
 
-# randomforest 하이퍼파라미터 튜닝 (GridSearchCV)
-rfr = RandomForestRegressor(random_state=42)
-param_grid = {
-    'n_estimators': [50, 100],
-    'max_depth': [5, 10, None],
-    'min_samples_split': [2, 5],
-}
-gs = GridSearchCV(rfr, param_grid, cv=5, scoring='neg_mean_absolute_error')
-gs.fit(X_processed, y)
-print("Best RF Params:", gs.best_params_)
+# RandomForest 파라미터 조합 하이퍼파라미터 튜닝
+rf_params_list = [
+    {'n_estimators': 50, 'max_depth': 5, 'min_samples_split': 2},
+    {'n_estimators': 100, 'max_depth': 10, 'min_samples_split': 5},
+    {'n_estimators': 100, 'max_depth': None, 'min_samples_split': 2},
+    {'n_estimators': 200, 'max_depth': 15, 'min_samples_split': 5},
+    {'n_estimators': 150, 'max_depth': 20, 'min_samples_split': 10}
+]
 
-# XGBoost 하이퍼파라미터 튜닝 (RandomizedSearchCV)
-xgb = XGBRegressor(random_state=42, verbosity=0)
-rnd_params = {
-    'n_estimators': [50, 100],
-    'learning_rate': [0.05, 0.1, 0.2],
-    'max_depth': [3, 5, 7]
-}
-rs = RandomizedSearchCV(xgb, rnd_params, n_iter=5, cv=5, scoring='neg_mean_squared_error')
-rs.fit(X_processed, y)
-print("Best XGB Params:", rs.best_params_)
+rf_results = []
+for i, params in enumerate(rf_params_list, 1):
+    model = RandomForestRegressor(**params, random_state=42)
+    mae, mse, rmse, r2 = evaluate_model(model, X_processed, y)
+    rf_results.append({
+        'Model': 'RandomForest',
+        'Combination': f'RF_Set_{i}',
+        'Params': params,
+        'MAE': mae, 'MSE': mse, 'RMSE': rmse, 'R2': r2
+    })
 
-"""# 6. 상관관계 해석
-특성 중요도 , 기업 특성(규모, 업종, 소유 형태, 위치 등)과 급여와의 연관성 시각화
-"""
+# XGBoost 파라미터 조합 하이퍼파라미터 튜닝 
+xgb_params_list = [
+    {'n_estimators': 50, 'learning_rate': 0.05, 'max_depth': 3},
+    {'n_estimators': 100, 'learning_rate': 0.1, 'max_depth': 5},
+    {'n_estimators': 100, 'learning_rate': 0.2, 'max_depth': 7},
+    {'n_estimators': 200, 'learning_rate': 0.1, 'max_depth': 3},
+    {'n_estimators': 150, 'learning_rate': 0.05, 'max_depth': 4}
+]
 
-# 최적 하이퍼파라미터로 모델 학습 후 feature importance 확인
-final_model = RandomForestRegressor(**gs.best_params_, random_state=42)
+xgb_results = []
+for i, params in enumerate(xgb_params_list, 1):
+    model = XGBRegressor(**params, random_state=42, verbosity=0)
+    mae, mse, rmse, r2 = evaluate_model(model, X_processed, y)
+    xgb_results.append({
+        'Model': 'XGBoost',
+        'Combination': f'XGB_Set_{i}',
+        'Params': params,
+        'MAE': mae, 'MSE': mse, 'RMSE': rmse, 'R2': r2
+    })
+
+# 결과 비교 및 최종 조합 선정
+results_df = pd.DataFrame(rf_results + xgb_results)
+best_result = results_df.loc[results_df['MAE'].idxmin()]
+
+print("\nModel Performance Comparison (Sorted by MAE)")
+print(results_df[['Model', 'Combination', 'MAE', 'RMSE', 'R2']].sort_values(by='MAE'))
+
+print("\nBest Performing Model and Parameters:")
+print(f"Model: {best_result['Model']}")
+print(f"Combination: {best_result['Combination']}")
+print(f"Hyperparameters: {best_result['Params']}")
+print(f"MAE: {best_result['MAE']:.2f}, RMSE: {best_result['RMSE']:.2f}, R2: {best_result['R2']:.2f}")
+
+# 최종 모델로 학습 및 중요 변수 시각화
+if best_result['Model'] == 'RandomForest':
+    final_model = RandomForestRegressor(**best_result['Params'], random_state=42)
+else:
+    final_model = XGBRegressor(**best_result['Params'], random_state=42, verbosity=0)
+
 final_model.fit(X_processed, y)
 
-# 특성 중요도 데이터프레임 생성
 importances = final_model.feature_importances_
 feature_names = numeric_features + list(ohe.get_feature_names_out(categorical_features))
 importance_df = pd.DataFrame({
@@ -191,7 +210,6 @@ importance_df = pd.DataFrame({
     'Importance': importances
 }).sort_values(by='Importance', ascending=False)
 
-# 중요 변수 상위 15개 시각화
 sns.barplot(data=importance_df.head(15), x='Importance', y='Feature')
-plt.title("급여에 영향을 미치는 주요 기업 특성")
+plt.title(f"Top 15 Important Features by {best_result['Model']}")
 plt.show()
